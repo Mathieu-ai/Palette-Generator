@@ -33,7 +33,8 @@ export interface ColorPosition {
  * Pinia store for color extraction and management
  */
 export const useColorStore = defineStore("color", () => {
-    const colorThief = new ColorThief();
+    // Initialize ColorThief only on client-side to avoid SSR issues
+    const colorThief = import.meta.client ? new ColorThief() : null;
     const { t } = useI18n();
     const toast = useToast();
     const { copyToClipboard } = useClipboard();
@@ -129,6 +130,11 @@ export const useColorStore = defineStore("color", () => {
     ): Promise<void> => {
         if (!isImageLoaded(imageElement)) {
             console.warn("Image not loaded yet");
+            return;
+        }
+
+        if (!colorThief) {
+            console.error("ColorThief not initialized (SSR environment)");
             return;
         }
 

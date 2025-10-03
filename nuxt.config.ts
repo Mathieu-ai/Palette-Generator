@@ -4,6 +4,10 @@ import pkg from "./package.json" assert { type: "json" };
 export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
+
+    // SSR disabled - this is a client-side only app (requires browser APIs for image processing)
+    ssr: false,
+
     app: {
         // Configure base URL for GitHub Pages deployment
         baseURL: process.env.NUXT_APP_BASE_URL || "/",
@@ -15,6 +19,11 @@ export default defineNuxtConfig({
                 { name: "viewport", content: "width=device-width, initial-scale=1" },
             ],
         },
+    },
+
+    // Nitro configuration for static generation
+    nitro: {
+        preset: "static",
     },
     modules: [
         "@nuxt/eslint",
