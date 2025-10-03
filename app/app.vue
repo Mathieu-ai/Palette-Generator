@@ -1,60 +1,60 @@
 <template>
     <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
         <NuxtRouteAnnouncer />
-
-        <header
-            class="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
-        >
-            <div class="container mx-auto px-4 py-4 sm:py-6">
-                <div
-                    class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
-                >
+        <ClientOnly>
+            <header
+                class="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
+            >
+                <div class="container mx-auto px-4 py-4 sm:py-6">
                     <div
-                        class="flex items-center gap-3 justify-center sm:justify-start"
+                        class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
                     >
-                        <UIcon
-                            name="i-heroicons-swatch"
-                            class="w-8 h-8 text-primary"
-                        />
-                        <h1
-                            class="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white"
+                        <div
+                            class="flex items-center gap-3 justify-center sm:justify-start"
                         >
-                            {{ $t("app.title") }}
-                        </h1>
-                    </div>
+                            <UIcon
+                                name="i-heroicons-swatch"
+                                class="w-8 h-8 text-primary"
+                            />
+                            <h1
+                                class="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white"
+                            >
+                                {{ $t("app.title") }}
+                            </h1>
+                        </div>
 
-                    <div
-                        class="flex items-center gap-2 justify-center sm:justify-end mt-2 sm:mt-0"
-                    >
-                        <USelect
-                            v-model="uiStore.currentLocale"
-                            :items="uiStore.languageItems"
-                            value-key="value"
-                            class="w-36 sm:w-40"
+                        <div
+                            class="flex items-center gap-2 justify-center sm:justify-end mt-2 sm:mt-0"
                         >
-                            <template #leading>
-                                <span class="text-xl">{{
-                                    uiStore.currentLanguageFlag
-                                }}</span>
-                            </template>
-                        </USelect>
-                        <UButton
-                            color="neutral"
-                            variant="ghost"
-                            icon="i-heroicons-moon"
-                            @click="uiStore.toggleColorMode"
-                        />
+                            <USelect
+                                v-model="uiStore.currentLocale"
+                                :items="uiStore.languageItems"
+                                value-key="value"
+                                class="w-36 sm:w-40"
+                            >
+                                <template #leading>
+                                    <span class="text-xl">{{
+                                        uiStore.currentLanguageFlag
+                                    }}</span>
+                                </template>
+                            </USelect>
+                            <UButton
+                                color="neutral"
+                                variant="ghost"
+                                icon="i-heroicons-moon"
+                                @click="uiStore.toggleColorMode"
+                            />
+                        </div>
                     </div>
+                    <p
+                        class="mt-2 text-gray-600 dark:text-gray-400 text-center sm:text-left"
+                    >
+                        {{ $t("app.description") }}
+                    </p>
                 </div>
-                <p
-                    class="mt-2 text-gray-600 dark:text-gray-400 text-center sm:text-left"
-                >
-                    {{ $t("app.description") }}
-                </p>
-            </div>
-        </header>
+            </header>
 
-        <main class="container mx-auto px-4 py-8">
+            <main class="container mx-auto px-4 py-8">
             <UCard v-if="!imageStore.imagePreview" class="mb-8">
                 <template #header>
                     <h2 class="text-xl font-semibold">
@@ -279,6 +279,7 @@
                 </div>
             </div>
         </main>
+        </ClientOnly>
     </div>
 </template>
 
