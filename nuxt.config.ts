@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
 
-    // SSR enabled for build time, but we'll use client-side rendering for browser APIs
-    ssr: true,
+    // SSR disabled - this is a pure client-side app
+    ssr: false,
 
     app: {
         // Configure base URL for GitHub Pages deployment
@@ -24,11 +24,6 @@ export default defineNuxtConfig({
     // Nitro configuration for static generation
     nitro: {
         preset: "static",
-        prerender: {
-            crawlLinks: true,
-            routes: ["/"],
-            failOnError: false,
-        },
     },
     modules: [
         "@nuxt/eslint",
