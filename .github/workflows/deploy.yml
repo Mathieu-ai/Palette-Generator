@@ -70,70 +70,23 @@ jobs:
                   # Uncomment and set your custom domain if you have one
                   # echo "yourdomain.com" > .output/public/CNAME
 
-            - name: Check if docs branch exists
-              id: check-branch
-              run: |
-                  if git ls-remote --heads origin docs | grep -q docs; then
-                    echo "exists=true" >> $GITHUB_OUTPUT
-                  else
-                    echo "exists=false" >> $GITHUB_OUTPUT
-                  fi
+            - name: Setup Pages
+              uses: actions/configure-pages@v4
 
-            - name: Setup Git
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: '.output/public'
 
-            - name: Deploy to docs branch
-              run: |
-                  # Create or switch to docs branch
-                  if [ "${{ steps.check-branch.outputs.exists }}" = "true" ]; then
-                    echo "Docs branch exists, pulling latest changes..."
-                    git fetch origin docs
-                    git checkout docs
-                    git pull origin docs
-                  else
-                    echo "Creating new docs branch..."
-                    git checkout --orphan docs
-                    git rm -rf .
-                  fi
-
-                  # Copy built files to docs branch (including hidden files like .nojekyll)
-                  cp -r .output/public/* .
-                  cp -r .output/public/.nojekyll . 2>/dev/null || echo ".nojekyll not found, creating it..."
-                  touch .nojekyll
-
-                  # Create a README for the docs branch
-                  echo "# GitHub Pages Deployment" > README.md
-                  echo "" >> README.md
-                  echo "This branch contains the built static files for GitHub Pages." >> README.md
-                  echo "Do not edit files directly on this branch." >> README.md
-                  echo "" >> README.md
-                  echo "Last deployed: $(date)" >> README.md
-                  echo "From commit: ${{ github.sha }}" >> README.md
-
-                  # Add all files
-                  git add .
-
-                  # Commit if there are changes
-                  if git diff --staged --quiet; then
-                    echo "No changes to deploy"
-                  else
-                    git commit -m "Deploy to GitHub Pages from ${{ github.sha }}"
-                    git push origin docs --force
-                    echo "✅ Successfully deployed to docs branch"
-                  fi
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
 
             - name: Output deployment info
               run: |
                   echo "🚀 Deployment complete!"
-                  echo "📦 Built files are in the docs branch"
-                  echo "🌐 Your site should be available at:"
+                  echo "🌐 Your site is now available at:"
                   echo "   https://${{ github.repository_owner }}.github.io/Palette-Generator/"
                   echo ""
-                  echo "⚙️  To enable GitHub Pages:"
-                  echo "   1. Go to your repository Settings"
-                  echo "   2. Navigate to Pages section"
-                  echo "   3. Under 'Source', select 'Deploy from a branch'"
-                  echo "   4. Select 'docs' branch and '/ (root)' folder"
-                  echo "   5. Click Save"
+                  echo "✅ Deployed via GitHub Actions"
+                  echo "📦 Deployment URL: ${{ steps.deployment.outputs.page_url }}"
