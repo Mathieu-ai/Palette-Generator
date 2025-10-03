@@ -1,0 +1,7 @@
+<template>
+  <div class="sr-only" aria-label="Loading..." role="status" />
+</template>
+
+<style scoped>
+.sr-only{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border:0}
+</style>

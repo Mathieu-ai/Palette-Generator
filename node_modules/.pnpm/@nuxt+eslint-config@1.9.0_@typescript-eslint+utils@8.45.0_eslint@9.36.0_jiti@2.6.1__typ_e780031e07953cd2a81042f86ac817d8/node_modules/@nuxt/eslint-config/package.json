@@ -1,0 +1,72 @@
+{
+  "name": "@nuxt/eslint-config",
+  "version": "1.9.0",
+  "description": "ESLint config for Nuxt projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/eslint.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./flat": "./dist/flat.mjs"
+  },
+  "typesVersions": {
+    "*": {
+      "flat": [
+        "./dist/flat.d.ts"
+      ],
+      "*": [
+        "./dist/*",
+        "./*"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-plugin-format": "*"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-format": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@antfu/install-pkg": "^1.1.0",
+    "@clack/prompts": "^0.11.0",
+    "@eslint/js": "^9.33.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "eslint-config-flat-gitignore": "^2.1.0",
+    "eslint-flat-config-utils": "^2.1.1",
+    "eslint-merge-processors": "^2.0.0",
+    "eslint-plugin-import-lite": "^0.3.0",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-jsdoc": "^54.1.0",
+    "eslint-plugin-regexp": "^2.10.0",
+    "eslint-plugin-unicorn": "^60.0.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "eslint-processor-vue-blocks": "^2.0.0",
+    "globals": "^16.3.0",
+    "local-pkg": "^1.1.1",
+    "pathe": "^2.0.3",
+    "vue-eslint-parser": "^10.2.0",
+    "@nuxt/eslint-plugin": "1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  }
+}
