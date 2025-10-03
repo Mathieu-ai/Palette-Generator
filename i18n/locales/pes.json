@@ -1,0 +1,45 @@
+{
+    "welcome": "خوش آمدید",
+    "app": {
+        "title": "تولیدکننده پالت",
+        "description": "از تصاویر خود پالت‌های رنگی زیبا بسازید"
+    },
+    "upload": {
+        "title": "بارگذاری تصویر",
+        "dropzone": "تصویر خود را اینجا رها کنید یا برای جستجو کلیک کنید",
+        "supports": "پشتیبانی‌شده: JPG، PNG، GIF، WebP",
+        "remove": "حذف"
+    },
+    "image": {
+        "title": "تصویر",
+        "colorCount": "تعداد رنگ‌ها",
+        "extracting": "در حال استخراج رنگ‌ها..."
+    },
+    "colors": {
+        "dominant": "رنگ‌های غالب",
+        "suggestions": "پیشنهادات رنگ",
+        "complementary": "تکمیلی",
+        "analogous": "رنگ‌های مشابه",
+        "position": "این رنگ در تصویر موقعیتی دارد",
+        "showing": "نمایش موقعیت فعلی"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "کپی همه",
+        "copy": "کپی شد!",
+        "copyDesc": "مقدار {format} در کلیپ‌بورد کپی شد",
+        "copyAllDesc": "تمام رنگ‌ها در کلیپ‌بورد کپی شدند",
+        "exportSuccess": "صادر شد!",
+        "exportDesc": "پالت به عنوان {filename} صادر شد"
+    },
+    "notifications": {
+        "success": "موفقیت!",
+        "error": "خطا",
+        "extractSuccess": "{count} رنگ از تصویر شما استخراج شد",
+        "extractError": "استخراج رنگ‌ها از تصویر ناموفق بود"
+    },
+    "empty": {
+        "title": "هنوز تصویری نیست",
+        "description": "برای شروع ساختن پالت رنگ خود یک تصویر بارگذاری کنید"
+    }
+}

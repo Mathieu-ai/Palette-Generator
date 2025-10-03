@@ -1,0 +1,45 @@
+{
+    "welcome": "Hoş geldiniz",
+    "app": {
+        "title": "Palet Oluşturucu",
+        "description": "Görsellerinizden güzel renk paletleri oluşturun"
+    },
+    "upload": {
+        "title": "Görüntü Yükle",
+        "dropzone": "Görüntünüzü buraya bırakın veya gözatmak için tıklayın",
+        "supports": "Destekler: JPG, PNG, GIF, WebP",
+        "remove": "Kaldır"
+    },
+    "image": {
+        "title": "Görüntü",
+        "colorCount": "Renk Sayısı",
+        "extracting": "Renkler çıkarılıyor..."
+    },
+    "colors": {
+        "dominant": "Ana Renkler",
+        "suggestions": "Renk Önerileri",
+        "complementary": "Tamamlayıcı",
+        "analogous": "Benzer Renkler",
+        "position": "Bu rengin görüntüde bir konumu var",
+        "showing": "Mevcut konum gösteriliyor"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Hepsini Kopyala",
+        "copy": "Kopyalandı!",
+        "copyDesc": "{format} değeri pano'ya kopyalandı",
+        "copyAllDesc": "Tüm renkler pano'ya kopyalandı",
+        "exportSuccess": "Dışa aktarıldı!",
+        "exportDesc": "Palet {filename} olarak dışa aktarıldı"
+    },
+    "notifications": {
+        "success": "Başarılı!",
+        "error": "Hata",
+        "extractSuccess": "Görüntünüzden {count} renk çıkarıldı",
+        "extractError": "Görüntüden renk çıkarılamadı"
+    },
+    "empty": {
+        "title": "Henüz Görüntü Yok",
+        "description": "Renk paletinizi oluşturmaya başlamak için bir görüntü yükleyin"
+    }
+}

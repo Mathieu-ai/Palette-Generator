@@ -1,0 +1,48 @@
+{
+    "welcome": "Xoş gəlmisiniz",
+    "app": {
+        "title": "Palitra Yaradıcı",
+        "description": "Şəkillərinizdən gözəl rəng palitraları yaradın"
+    },
+    "upload": {
+        "title": "Şəkil Yüklə",
+        "dropzone": "Şəkilinizi buraya atın və ya baxmaq üçün klikləyin",
+        "supports": "Dəstəklənir: JPG, PNG, GIF, WebP",
+        "remove": "Sil"
+    },
+    "image": {
+        "title": "Şəkil",
+        "colorCount": "Rəng sayı",
+        "extracting": "Rənglər ayrılır..."
+    },
+    "colors": {
+        "dominant": "Dominant rənglər",
+        "suggestions": "Rəng təklifləri",
+        "complementary": "Tamamlayıcı",
+        "analogous": "Oxşar rənglər",
+        "position": "Bu rəngin şəkildə bir mövqeyi var",
+        "showing": "Cari mövqe göstərilir"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "Hamısını kopyala",
+        "copy": "Kopyalandı!",
+        "copyDesc": "{format} dəyəri panoya kopyalandı",
+        "copyAllDesc": "Bütün rənglər panoya kopyalandı",
+        "exportSuccess": "İxrac olundu!",
+        "exportDesc": "Palitra {filename} kimi ixrac olundu"
+    },
+    "notifications": {
+        "success": "Uğur!",
+        "error": "Xəta",
+        "extractSuccess": "Şəkilinizdən {count} rəng çıxarıldı",
+        "extractError": "Şəkildən rəng çıxarma uğursuz oldu"
+    },
+    "empty": {
+        "title": "Hələ şəkil yoxdur",
+        "description": "Rəng palitranızı yaratmağa başlamaq üçün şəkil yükləyin"
+    }
+}

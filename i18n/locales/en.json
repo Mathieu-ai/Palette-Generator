@@ -1,0 +1,48 @@
+{
+    "welcome": "Welcome",
+    "app": {
+        "title": "Palette Generator",
+        "description": "Generate beautiful color palettes from your images"
+    },
+    "upload": {
+        "title": "Upload Image",
+        "dropzone": "Drop your image here or click to browse",
+        "supports": "Supports: JPG, PNG, GIF, WebP",
+        "remove": "Remove"
+    },
+    "image": {
+        "title": "Image",
+        "colorCount": "Number of Colors",
+        "extracting": "Extracting colors..."
+    },
+    "colors": {
+        "dominant": "Dominant Colors",
+        "suggestions": "Color Suggestions",
+        "complementary": "Complementary",
+        "analogous": "Analogous Colors",
+        "position": "This color has a position in the image",
+        "showing": "Currently showing position"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "Copy All",
+        "copy": "Copied!",
+        "copyDesc": "{format} value copied to clipboard",
+        "copyAllDesc": "All colors copied to clipboard",
+        "exportSuccess": "Exported!",
+        "exportDesc": "Palette exported as {filename}"
+    },
+    "notifications": {
+        "success": "Success!",
+        "error": "Error",
+        "extractSuccess": "Extracted {count} colors from your image",
+        "extractError": "Failed to extract colors from image"
+    },
+    "empty": {
+        "title": "No Image Yet",
+        "description": "Upload an image to start generating your color palette"
+    }
+}

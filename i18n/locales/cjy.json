@@ -1,0 +1,48 @@
+{
+    "welcome": "欢迎",
+    "app": {
+        "title": "调色板生成器",
+        "description": "从您的图片生成漂亮的颜色调色板"
+    },
+    "upload": {
+        "title": "上传图片",
+        "dropzone": "将图片拖放到此处或点击以浏览",
+        "supports": "支持格式：JPG、PNG、GIF、WebP",
+        "remove": "移除"
+    },
+    "image": {
+        "title": "图片",
+        "colorCount": "颜色数量",
+        "extracting": "正在提取颜色..."
+    },
+    "colors": {
+        "dominant": "主导颜色",
+        "suggestions": "颜色建议",
+        "complementary": "互补色",
+        "analogous": "类似色",
+        "position": "该颜色在图片中的位置",
+        "showing": "正在显示当前位置"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "全部复制",
+        "copy": "已复制！",
+        "copyDesc": "{format} 值已复制到剪贴板",
+        "copyAllDesc": "所有颜色已复制到剪贴板",
+        "exportSuccess": "导出成功！",
+        "exportDesc": "调色板已导出为 {filename}"
+    },
+    "notifications": {
+        "success": "成功！",
+        "error": "错误",
+        "extractSuccess": "已从您的图片中提取 {count} 个颜色",
+        "extractError": "从图片提取颜色失败"
+    },
+    "empty": {
+        "title": "尚未上传图片",
+        "description": "上传图片以开始生成颜色调色板"
+    }
+}

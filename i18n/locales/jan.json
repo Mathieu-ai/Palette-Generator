@@ -1,0 +1,45 @@
+{
+    "welcome": "Sugeng rawuh",
+    "app": {
+        "title": "Generator Palet",
+        "description": "Nggawe palet warna sing éndah saka gambar sampeyan"
+    },
+    "upload": {
+        "title": "Unggah Gambar",
+        "dropzone": "Seret gambarmu ing kene utawa klik kanggo nggoleki",
+        "supports": "Didhukung: JPG, PNG, GIF, WebP",
+        "remove": "Busak"
+    },
+    "image": {
+        "title": "Gambar",
+        "colorCount": "Jumlah Werna",
+        "extracting": "Ngekstrak warna..."
+    },
+    "colors": {
+        "dominant": "Warna Dominan",
+        "suggestions": "Saran Warna",
+        "complementary": "Warna Pelengkap",
+        "analogous": "Warna Analogi",
+        "position": "Warna iki nduwé posisi ing gambar",
+        "showing": "Nuduhaké posisi saiki"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Salin Kabeh",
+        "copy": "Wis disalin!",
+        "copyDesc": "Nilai {format} disalin menyang papan klip",
+        "copyAllDesc": "Kabeh warna disalin menyang papan klip",
+        "exportSuccess": "Diekspor!",
+        "exportDesc": "Palet diekspor minangka {filename}"
+    },
+    "notifications": {
+        "success": "Sukses!",
+        "error": "Kasalahan",
+        "extractSuccess": "{count} warna diekstrak saka gambarmu",
+        "extractError": "Gagal ngekstrak warna saka gambar"
+    },
+    "empty": {
+        "title": "Durung ana gambar",
+        "description": "Unggah gambar kanggo miwiti nggawe palet werna"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "welcome": "Barka da zuwa",
+    "app": {
+        "title": "Mai Haɓaka Paleti",
+        "description": "Haɓaka kyawawan jerin launuka daga hotunanka"
+    },
+    "upload": {
+        "title": "Loda Hoto",
+        "dropzone": "Jefar da hotonka a nan ko danna don bincika",
+        "supports": "Yana goyan bayan: JPG, PNG, GIF, WebP",
+        "remove": "Cire"
+    },
+    "image": {
+        "title": "Hoto",
+        "colorCount": "Adadin Launuka",
+        "extracting": "Ana cire launuka..."
+    },
+    "colors": {
+        "dominant": "Launuka Masu Mamaye",
+        "suggestions": "Shawarwarin Launi",
+        "complementary": "Launin Cikakke",
+        "analogous": "Launukan Kusa",
+        "position": "Wannan launi yana da matsayi a cikin hoton",
+        "showing": "Ana nuna matsayi na yanzu"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Kwafi Duka",
+        "copy": "An kwafi!",
+        "copyDesc": "An kwafi {format} zuwa allo mai makala",
+        "copyAllDesc": "Dukkan launuka an kwafi zuwa allo mai makala",
+        "exportSuccess": "An fitar!",
+        "exportDesc": "An fitar da paleti azaman {filename}"
+    },
+    "notifications": {
+        "success": "Nasara!",
+        "error": "Kuskure",
+        "extractSuccess": "An cire {count} launuka daga hotonku",
+        "extractError": "An kasa cire launuka daga hoton"
+    },
+    "empty": {
+        "title": "Babu Hoto Yanzu",
+        "description": "Loda hoto don fara haɓaka palet ɗin launuka"
+    }
+}

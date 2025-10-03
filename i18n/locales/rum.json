@@ -1,0 +1,45 @@
+{
+    "welcome": "Bine ați venit",
+    "app": {
+        "title": "Generator de palete",
+        "description": "Generează palete de culori frumoase din imaginile tale"
+    },
+    "upload": {
+        "title": "Încarcă imagine",
+        "dropzone": "Trage imaginea aici sau fă clic pentru a răsfoi",
+        "supports": "Acceptă: JPG, PNG, GIF, WebP",
+        "remove": "Elimină"
+    },
+    "image": {
+        "title": "Imagine",
+        "colorCount": "Număr de culori",
+        "extracting": "Se extrag culorile..."
+    },
+    "colors": {
+        "dominant": "Culori dominante",
+        "suggestions": "Sugestii de culori",
+        "complementary": "Complementare",
+        "analogous": "Culori analoge",
+        "position": "Această culoare are o poziție în imagine",
+        "showing": "Afișarea poziției curente"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Copiază tot",
+        "copy": "Copiat!",
+        "copyDesc": "Valoarea {format} a fost copiată în clipboard",
+        "copyAllDesc": "Toate culorile au fost copiate în clipboard",
+        "exportSuccess": "Exportat!",
+        "exportDesc": "Paleta a fost exportată ca {filename}"
+    },
+    "notifications": {
+        "success": "Succes!",
+        "error": "Eroare",
+        "extractSuccess": "{count} culori extrase din imaginea ta",
+        "extractError": "Eroare la extragerea culorilor din imagine"
+    },
+    "empty": {
+        "title": "Încă nicio imagine",
+        "description": "Încarcă o imagine pentru a începe să generezi paleta ta de culori"
+    }
+}

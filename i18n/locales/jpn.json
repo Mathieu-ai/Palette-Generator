@@ -1,0 +1,45 @@
+{
+    "welcome": "ようこそ",
+    "app": {
+        "title": "パレットジェネレーター",
+        "description": "画像から美しいカラーパレットを生成します"
+    },
+    "upload": {
+        "title": "画像をアップロード",
+        "dropzone": "ここに画像をドロップするか、参照するためにクリックしてください",
+        "supports": "対応形式：JPG、PNG、GIF、WebP",
+        "remove": "削除"
+    },
+    "image": {
+        "title": "画像",
+        "colorCount": "色の数",
+        "extracting": "色を抽出しています..."
+    },
+    "colors": {
+        "dominant": "主要な色",
+        "suggestions": "色の提案",
+        "complementary": "補色",
+        "analogous": "類似色",
+        "position": "この色は画像内に位置があります",
+        "showing": "現在の位置を表示中"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "すべてコピー",
+        "copy": "コピーしました！",
+        "copyDesc": "{format} の値をクリップボードにコピーしました",
+        "copyAllDesc": "すべての色をクリップボードにコピーしました",
+        "exportSuccess": "エクスポートしました！",
+        "exportDesc": "パレットを {filename} としてエクスポートしました"
+    },
+    "notifications": {
+        "success": "成功！",
+        "error": "エラー",
+        "extractSuccess": "画像から {count} 件の色を抽出しました",
+        "extractError": "画像から色を抽出できませんでした"
+    },
+    "empty": {
+        "title": "まだ画像がありません",
+        "description": "カラーパレットの生成を開始するには画像をアップロードしてください"
+    }
+}

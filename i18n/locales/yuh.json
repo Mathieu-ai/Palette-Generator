@@ -1,0 +1,48 @@
+{
+    "welcome": "歡迎",
+    "app": {
+        "title": "調色盤產生器",
+        "description": "從你的圖片產生漂亮的顏色調色盤"
+    },
+    "upload": {
+        "title": "上載圖片",
+        "dropzone": "將圖片拖放到這裡或按一下以瀏覽",
+        "supports": "支援格式：JPG、PNG、GIF、WebP",
+        "remove": "移除"
+    },
+    "image": {
+        "title": "圖片",
+        "colorCount": "顏色數量",
+        "extracting": "正在提取顏色..."
+    },
+    "colors": {
+        "dominant": "主導顏色",
+        "suggestions": "顏色建議",
+        "complementary": "互補色",
+        "analogous": "相似色",
+        "position": "該顏色在圖片中的位置",
+        "showing": "顯示當前位置"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "全部複製",
+        "copy": "已複製！",
+        "copyDesc": "{format} 值已複製到剪貼簿",
+        "copyAllDesc": "所有顏色已複製到剪貼簿",
+        "exportSuccess": "已匯出！",
+        "exportDesc": "調色盤已匯出為 {filename}"
+    },
+    "notifications": {
+        "success": "成功！",
+        "error": "錯誤",
+        "extractSuccess": "已從您的圖片中提取 {count} 個顏色",
+        "extractError": "無法從圖片提取顏色"
+    },
+    "empty": {
+        "title": "尚未有圖片",
+        "description": "上載圖片以開始生成您的顏色調色盤"
+    }
+}

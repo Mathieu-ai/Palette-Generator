@@ -1,0 +1,45 @@
+{
+    "welcome": "Velkommen",
+    "app": {
+        "title": "Palettgenerator",
+        "description": "Generer vakre fargepaletter fra bildene dine"
+    },
+    "upload": {
+        "title": "Last opp bilde",
+        "dropzone": "Slipp bildet ditt her eller klikk for å bla",
+        "supports": "Støtter: JPG, PNG, GIF, WebP",
+        "remove": "Fjern"
+    },
+    "image": {
+        "title": "Bilde",
+        "colorCount": "Antall farger",
+        "extracting": "Uttrekk av farger..."
+    },
+    "colors": {
+        "dominant": "Dominerende farger",
+        "suggestions": "Fargeforslag",
+        "complementary": "Komplementær",
+        "analogous": "Analoge farger",
+        "position": "Denne fargen har en posisjon i bildet",
+        "showing": "Viser gjeldende posisjon"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Kopier alt",
+        "copy": "Kopiert!",
+        "copyDesc": "{format} verdi kopiert til utklippstavlen",
+        "copyAllDesc": "Alle farger kopiert til utklippstavlen",
+        "exportSuccess": "Eksportert!",
+        "exportDesc": "Palett eksportert som {filename}"
+    },
+    "notifications": {
+        "success": "Suksess!",
+        "error": "Feil",
+        "extractSuccess": "{count} farger hentet fra bildet ditt",
+        "extractError": "Kunne ikke hente farger fra bildet"
+    },
+    "empty": {
+        "title": "Ingen bilde ennå",
+        "description": "Last opp et bilde for å begynne å generere paletten din"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "welcome": "Selamat datang",
+    "app": {
+        "title": "Penjana Palet",
+        "description": "Jana palet warna cantik dari gambar anda"
+    },
+    "upload": {
+        "title": "Muat Naik Imej",
+        "dropzone": "Leret imej anda ke sini atau klik untuk semak imbas",
+        "supports": "Menyokong: JPG, PNG, GIF, WebP",
+        "remove": "Buang"
+    },
+    "image": {
+        "title": "Imej",
+        "colorCount": "Bilangan Warna",
+        "extracting": "Mengekstrak warna..."
+    },
+    "colors": {
+        "dominant": "Warna Dominan",
+        "suggestions": "Cadangan Warna",
+        "complementary": "Warna Pelengkap",
+        "analogous": "Warna Serupa",
+        "position": "Warna ini mempunyai kedudukan dalam imej",
+        "showing": "Menunjukkan kedudukan semasa"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Salin Semua",
+        "copy": "Disalin!",
+        "copyDesc": "Nilai {format} disalin ke papan keratan",
+        "copyAllDesc": "Semua warna disalin ke papan keratan",
+        "exportSuccess": "Dieksport!",
+        "exportDesc": "Palet dieksport sebagai {filename}"
+    },
+    "notifications": {
+        "success": "Berjaya!",
+        "error": "Ralat",
+        "extractSuccess": "{count} warna diekstrak dari imej anda",
+        "extractError": "Gagal mengekstrak warna dari imej"
+    },
+    "empty": {
+        "title": "Tiada Imej",
+        "description": "Muat naik imej untuk mula menjana palet warna anda"
+    }
+}

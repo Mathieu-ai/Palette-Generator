@@ -1,0 +1,138 @@
+name: Deploy to GitHub Pages
+
+on:
+    # Trigger on push to main branch
+    push:
+        branches:
+            - main
+    # Allow manual trigger from Actions tab
+    workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+    contents: write
+    pages: write
+    id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+    group: "pages"
+    cancel-in-progress: false
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout main branch
+              uses: actions/checkout@v4
+              with:
+                  ref: main
+                  fetch-depth: 0
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v3
+              with:
+                  version: 8
+                  run_install: false
+
+            - name: Get pnpm store directory
+              shell: bash
+              run: |
+                  echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+            - name: Setup pnpm cache
+              uses: actions/cache@v4
+              with:
+                  path: ${{ env.STORE_PATH }}
+                  key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+                  restore-keys: |
+                      ${{ runner.os }}-pnpm-store-
+
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Build static site
+              run: pnpm generate
+              env:
+                  NODE_ENV: production
+                  # Set base URL for GitHub Pages (replace with your repo name)
+                  NUXT_APP_BASE_URL: /Palette-Generator/
+
+            - name: Add .nojekyll file
+              run: touch .output/public/.nojekyll
+
+            - name: Create CNAME file (if using custom domain)
+              run: |
+                  # Uncomment and set your custom domain if you have one
+                  # echo "yourdomain.com" > .output/public/CNAME
+
+            - name: Check if docs branch exists
+              id: check-branch
+              run: |
+                  if git ls-remote --heads origin docs | grep -q docs; then
+                    echo "exists=true" >> $GITHUB_OUTPUT
+                  else
+                    echo "exists=false" >> $GITHUB_OUTPUT
+                  fi
+
+            - name: Setup Git
+              run: |
+                  git config --global user.name "github-actions[bot]"
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+            - name: Deploy to docs branch
+              run: |
+                  # Create or switch to docs branch
+                  if [ "${{ steps.check-branch.outputs.exists }}" = "true" ]; then
+                    echo "Docs branch exists, pulling latest changes..."
+                    git fetch origin docs
+                    git checkout docs
+                    git pull origin docs
+                  else
+                    echo "Creating new docs branch..."
+                    git checkout --orphan docs
+                    git rm -rf .
+                  fi
+
+                  # Copy built files to docs branch
+                  cp -r .output/public/* .
+
+                  # Create a README for the docs branch
+                  echo "# GitHub Pages Deployment" > README.md
+                  echo "" >> README.md
+                  echo "This branch contains the built static files for GitHub Pages." >> README.md
+                  echo "Do not edit files directly on this branch." >> README.md
+                  echo "" >> README.md
+                  echo "Last deployed: $(date)" >> README.md
+                  echo "From commit: ${{ github.sha }}" >> README.md
+
+                  # Add all files
+                  git add .
+
+                  # Commit if there are changes
+                  if git diff --staged --quiet; then
+                    echo "No changes to deploy"
+                  else
+                    git commit -m "Deploy to GitHub Pages from ${{ github.sha }}"
+                    git push origin docs --force
+                    echo "✅ Successfully deployed to docs branch"
+                  fi
+
+            - name: Output deployment info
+              run: |
+                  echo "🚀 Deployment complete!"
+                  echo "📦 Built files are in the docs branch"
+                  echo "🌐 Your site should be available at:"
+                  echo "   https://${{ github.repository_owner }}.github.io/Palette-Generator/"
+                  echo ""
+                  echo "⚙️  To enable GitHub Pages:"
+                  echo "   1. Go to your repository Settings"
+                  echo "   2. Navigate to Pages section"
+                  echo "   3. Under 'Source', select 'Deploy from a branch'"
+                  echo "   4. Select 'docs' branch and '/ (root)' folder"
+                  echo "   5. Click Save"

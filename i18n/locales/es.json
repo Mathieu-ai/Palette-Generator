@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "Generador de Paleta",
+        "description": "Genera hermosas paletas de colores desde tus imágenes"
+    },
+    "upload": {
+        "title": "Subir Imagen",
+        "dropzone": "Suelta tu imagen aquí o haz clic para buscar",
+        "supports": "Formatos soportados: JPG, PNG, GIF, WebP",
+        "remove": "Eliminar"
+    },
+    "image": {
+        "title": "Imagen",
+        "colorCount": "Número de Colores",
+        "extracting": "Extrayendo colores..."
+    },
+    "colors": {
+        "dominant": "Colores Dominantes",
+        "suggestions": "Sugerencias de Colores",
+        "complementary": "Complementario",
+        "analogous": "Colores Análogos",
+        "position": "Este color tiene una posición en la imagen",
+        "showing": "Mostrando posición actual"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "Copiar Todo",
+        "copy": "¡Copiado!",
+        "copyDesc": "Valor {format} copiado al portapapeles",
+        "copyAllDesc": "Todos los colores copiados al portapapeles",
+        "exportSuccess": "¡Exportado!",
+        "exportDesc": "Paleta exportada como {filename}"
+    },
+    "notifications": {
+        "success": "¡Éxito!",
+        "error": "Error",
+        "extractSuccess": "{count} colores extraídos de tu imagen",
+        "extractError": "Error al extraer colores de la imagen"
+    },
+    "empty": {
+        "title": "Aún No Hay Imagen",
+        "description": "Sube una imagen para comenzar a generar tu paleta de colores"
+    }
+}

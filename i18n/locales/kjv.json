@@ -1,0 +1,45 @@
+{
+    "welcome": "Karibu",
+    "app": {
+        "title": "Kilele cha Rangi",
+        "description": "Tengeneza paleti nzuri za rangi kutoka kwa picha zako"
+    },
+    "upload": {
+        "title": "Pakia Picha",
+        "dropzone": "Buruta picha yako hapa au bonyeza kusoma",
+        "supports": "Inasaidia: JPG, PNG, GIF, WebP",
+        "remove": "Ondoa"
+    },
+    "image": {
+        "title": "Picha",
+        "colorCount": "Idadi ya Rangi",
+        "extracting": "Kuchukua rangi..."
+    },
+    "colors": {
+        "dominant": "Rangi Zinazoongoza",
+        "suggestions": "Mapendekezo ya rangi",
+        "complementary": "Rangi za kuongezea",
+        "analogous": "Rangi zinazofanana",
+        "position": "Rangi hii ina nafasi kwenye picha",
+        "showing": "Inaonyesha nafasi ya sasa"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Nakili Yote",
+        "copy": "Imenakiliwa!",
+        "copyDesc": "Thamani ya {format} imenaswa kwenye clipboard",
+        "copyAllDesc": "Rangi zote zimenakiliwa kwenye clipboard",
+        "exportSuccess": "Imethibitishwa!",
+        "exportDesc": "Paleti imepakiwa kama {filename}"
+    },
+    "notifications": {
+        "success": "Mafanikio!",
+        "error": "Hitilafu",
+        "extractSuccess": "Ilikokotolewa rangi {count} kutoka kwenye picha yako",
+        "extractError": "Imeshindwa kutoa rangi kutoka kwenye picha"
+    },
+    "empty": {
+        "title": "Hakuna picha bado",
+        "description": "Pakia picha ili kuanza kuunda paleti yako ya rangi"
+    }
+}

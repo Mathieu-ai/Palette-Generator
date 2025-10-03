@@ -1,0 +1,45 @@
+{
+    "welcome": "Chào mừng",
+    "app": {
+        "title": "Trình tạo Bảng Màu",
+        "description": "Tạo bảng màu đẹp từ hình ảnh của bạn"
+    },
+    "upload": {
+        "title": "Tải ảnh lên",
+        "dropzone": "Kéo thả ảnh vào đây hoặc nhấp để duyệt",
+        "supports": "Hỗ trợ: JPG, PNG, GIF, WebP",
+        "remove": "Xóa"
+    },
+    "image": {
+        "title": "Hình ảnh",
+        "colorCount": "Số lượng màu",
+        "extracting": "Đang trích xuất màu..."
+    },
+    "colors": {
+        "dominant": "Màu chủ đạo",
+        "suggestions": "Gợi ý màu",
+        "complementary": "Bổ sung",
+        "analogous": "Màu tương tự",
+        "position": "Màu này có vị trí trong hình ảnh",
+        "showing": "Đang hiển thị vị trí hiện tại"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Sao chép tất cả",
+        "copy": "Đã sao chép!",
+        "copyDesc": "Giá trị {format} đã được sao chép vào bảng nhớ",
+        "copyAllDesc": "Tất cả màu đã được sao chép vào bảng nhớ",
+        "exportSuccess": "Đã xuất!",
+        "exportDesc": "Bảng màu đã được xuất dưới tên {filename}"
+    },
+    "notifications": {
+        "success": "Thành công!",
+        "error": "Lỗi",
+        "extractSuccess": "Đã trích xuất {count} màu từ hình ảnh của bạn",
+        "extractError": "Trích xuất màu từ hình ảnh thất bại"
+    },
+    "empty": {
+        "title": "Chưa có hình ảnh",
+        "description": "Tải lên một hình ảnh để bắt đầu tạo bảng màu của bạn"
+    }
+}

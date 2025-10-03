@@ -1,0 +1,47 @@
+{
+    "app": {
+        "title": "Générateur de Palette",
+        "description": "Générez de magnifiques palettes de couleurs à partir de vos images"
+    },
+    "upload": {
+        "title": "Télécharger une Image",
+        "dropzone": "Déposez votre image ici ou cliquez pour parcourir",
+        "supports": "Formats supportés : JPG, PNG, GIF, WebP",
+        "remove": "Supprimer"
+    },
+    "image": {
+        "title": "Image",
+        "colorCount": "Nombre de Couleurs",
+        "extracting": "Extraction des couleurs..."
+    },
+    "colors": {
+        "dominant": "Couleurs Dominantes",
+        "suggestions": "Suggestions de Couleurs",
+        "complementary": "Complémentaire",
+        "analogous": "Couleurs Analogues",
+        "position": "Cette couleur a une position dans l'image",
+        "showing": "Affichage de la position actuelle"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "Tout Copier",
+        "copy": "Copié !",
+        "copyDesc": "Valeur {format} copiée dans le presse-papiers",
+        "copyAllDesc": "Toutes les couleurs copiées dans le presse-papiers",
+        "exportSuccess": "Exporté !",
+        "exportDesc": "Palette exportée en tant que {filename}"
+    },
+    "notifications": {
+        "success": "Succès !",
+        "error": "Erreur",
+        "extractSuccess": "{count} couleurs extraites de votre image",
+        "extractError": "Échec de l'extraction des couleurs de l'image"
+    },
+    "empty": {
+        "title": "Pas Encore d'Image",
+        "description": "Téléchargez une image pour commencer à générer votre palette de couleurs"
+    }
+}

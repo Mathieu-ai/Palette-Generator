@@ -1,0 +1,48 @@
+{
+    "welcome": "እንኳን ደህና መጣችሁ",
+    "app": {
+        "title": "የቀለም ጥቅል አቀናቢ",
+        "description": "ከምስሎችዎ ውስጥ የተወሰኑ ጥቅሎች ይፍጠሩ"
+    },
+    "upload": {
+        "title": "ምስል ይጨምሩ",
+        "dropzone": "ምስልዎን እዚህ ወይዘም ለመመልከት ይጫኑ",
+        "supports": "ይደግፋሉ: JPG, PNG, GIF, WebP",
+        "remove": "አስወግድ"
+    },
+    "image": {
+        "title": "ምስል",
+        "colorCount": "የቀለም ብዛት",
+        "extracting": "ቀለማትን እየተወገዱ ነው..."
+    },
+    "colors": {
+        "dominant": "ዋና ቀለማት",
+        "suggestions": "የቀለም ምክር",
+        "complementary": "ተጨማሪ ቀለም",
+        "analogous": "ተመሳሳይ ቀለማት",
+        "position": "ይህ ቀለም በምስሉ ውስጥ አንድ ቦታ አለው",
+        "showing": "የአሁኑን ቦታ እየታየ ነው"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "ሁሉንም ቅጂ ያድርጉ",
+        "copy": "ተቀይሯል!",
+        "copyDesc": "የ{format} እሴት ወደ ክሊፕ ቦርድ ተቀይሯል",
+        "copyAllDesc": "ሁሉም ቀለማት ወደ ክሊፕ ቦርድ ተቀይሩ",
+        "exportSuccess": "ተላጭ!",
+        "exportDesc": "ጥቅሉ እንደ {filename} ተላጭ"
+    },
+    "notifications": {
+        "success": "ተሳክቷል!",
+        "error": "ስህተት",
+        "extractSuccess": "ከምስልዎ {count} ቀለማት ተወሰዱ",
+        "extractError": "ከምስሉ ቀለማት ማቀላጠፍ አልተቻለም"
+    },
+    "empty": {
+        "title": "እስካሁን ምንም ምስል የለም",
+        "description": "የቀለም ጥቅል ለመፍጠር አንድ ምስል ይጨምሩ"
+    }
+}

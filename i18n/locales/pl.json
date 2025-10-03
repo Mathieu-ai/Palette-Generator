@@ -1,0 +1,45 @@
+{
+    "welcome": "Witamy",
+    "app": {
+        "title": "Generator Palet",
+        "description": "Generuj piękne palety kolorów ze swoich obrazów"
+    },
+    "upload": {
+        "title": "Prześlij obraz",
+        "dropzone": "Przeciągnij obraz tutaj lub kliknij, aby przeglądać",
+        "supports": "Obsługiwane formaty: JPG, PNG, GIF, WebP",
+        "remove": "Usuń"
+    },
+    "image": {
+        "title": "Obraz",
+        "colorCount": "Liczba kolorów",
+        "extracting": "Wyodrębnianie kolorów..."
+    },
+    "colors": {
+        "dominant": "Dominujące kolory",
+        "suggestions": "Sugestie kolorów",
+        "complementary": "Kolory dopełniające",
+        "analogous": "Kolory analogiczne",
+        "position": "Ten kolor ma pozycję na obrazie",
+        "showing": "Pokazywanie bieżącej pozycji"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Kopiuj wszystko",
+        "copy": "Skopiowano!",
+        "copyDesc": "Wartość {format} skopiowana do schowka",
+        "copyAllDesc": "Wszystkie kolory skopiowane do schowka",
+        "exportSuccess": "Wyeksportowano!",
+        "exportDesc": "Paleta wyeksportowana jako {filename}"
+    },
+    "notifications": {
+        "success": "Sukces!",
+        "error": "Błąd",
+        "extractSuccess": "Wyodrębniono {count} kolorów z twojego obrazu",
+        "extractError": "Nie udało się wyodrębnić kolorów z obrazu"
+    },
+    "empty": {
+        "title": "Brak obrazu",
+        "description": "Prześlij obraz, aby rozpocząć generowanie palety kolorów"
+    }
+}

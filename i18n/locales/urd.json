@@ -1,0 +1,45 @@
+{
+    "welcome": "خوش آمدید",
+    "app": {
+        "title": "پیلیٹ جنریٹر",
+        "description": "اپنی تصاویر سے خوبصورت رنگوں کے پیلیٹ بنائیں"
+    },
+    "upload": {
+        "title": "تصویر اپ لوڈ کریں",
+        "dropzone": "اپنی تصویر یہاں چھوڑیں یا براؤز کرنے کے لیے کلک کریں",
+        "supports": "معاون فارمیٹس: JPG، PNG، GIF، WebP",
+        "remove": " ہٹائیں"
+    },
+    "image": {
+        "title": "تصویر",
+        "colorCount": "رنگوں کی تعداد",
+        "extracting": "رنگ نکالے جا رہے ہیں..."
+    },
+    "colors": {
+        "dominant": "نمایاں رنگ",
+        "suggestions": "رنگ کے مشورے",
+        "complementary": "مکمل کرنے والے",
+        "analogous": "متشابہ رنگ",
+        "position": "اس رنگ کا تصویر میں مقام ہے",
+        "showing": "موجودہ مقام دکھایا جا رہا ہے"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "سب کو کاپی کریں",
+        "copy": "کاپی ہوگیا!",
+        "copyDesc": "{format} قدر کلپ بورڈ میں کاپی ہوئی",
+        "copyAllDesc": "تمام رنگ کلپ بورڈ میں کاپی کیے گئے",
+        "exportSuccess": "برآمد ہو گیا!",
+        "exportDesc": "پیلیٹ کو {filename} کے طور پر برآمد کیا گیا"
+    },
+    "notifications": {
+        "success": "کامیابی!",
+        "error": "خرابی",
+        "extractSuccess": "آپ کی تصویر سے {count} رنگ نکالے گئے",
+        "extractError": "تصویر سے رنگ نکالنے میں ناکامی"
+    },
+    "empty": {
+        "title": "ابھی تک کوئی تصویر نہیں",
+        "description": "اپنا رنگ پیلیٹ تیار کرنا شروع کرنے کے لئے ایک تصویر اپ لوڈ کریں"
+    }
+}

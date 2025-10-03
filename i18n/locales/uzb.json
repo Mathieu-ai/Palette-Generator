@@ -1,0 +1,45 @@
+{
+    "welcome": "Xush kelibsiz",
+    "app": {
+        "title": "Palitra Generatori",
+        "description": "Rasmlaringizdan chiroyli rang palitralarini hosil qiling"
+    },
+    "upload": {
+        "title": "Rasm yuklash",
+        "dropzone": "Rasmingizni shu yerga tashlang yoki ko'rish uchun bosing",
+        "supports": "Qo'llab-quvvatlanadi: JPG, PNG, GIF, WebP",
+        "remove": "O'chirish"
+    },
+    "image": {
+        "title": "Rasm",
+        "colorCount": "Ranglar soni",
+        "extracting": "Ranglar olinmoqda..."
+    },
+    "colors": {
+        "dominant": "Dominant ranglar",
+        "suggestions": "Rang tavsiyalari",
+        "complementary": "Qo'shimcha rang",
+        "analogous": "O'xshash ranglar",
+        "position": "Ushbu rangning rasmda joylashuvi bor",
+        "showing": "Joriy joy ko'rsatilmoqda"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Hammasini nusxalash",
+        "copy": "Nusxalandi!",
+        "copyDesc": "{format} qiymati clipboardga nusxalandi",
+        "copyAllDesc": "Barcha ranglar clipboardga nusxalandi",
+        "exportSuccess": "Eksport qilindi!",
+        "exportDesc": "Palitra {filename} sifatida eksport qilindi"
+    },
+    "notifications": {
+        "success": "Muvaffaqiyat!",
+        "error": "Xatolik",
+        "extractSuccess": "Rasmingizdan {count} rang olindi",
+        "extractError": "Rasmadan ranglarni olishda xatolik yuz berdi"
+    },
+    "empty": {
+        "title": "Hozircha rasm yo'q",
+        "description": "Rang palitrasini yaratishni boshlash uchun rasm yuklang"
+    }
+}

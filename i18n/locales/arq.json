@@ -1,0 +1,48 @@
+{
+    "welcome": "مرحبًا",
+    "app": {
+        "title": "مولد اللوحات",
+        "description": "إنشاء لوحات ألوان جميلة من صورك"
+    },
+    "upload": {
+        "title": "رفع الصورة",
+        "dropzone": "اسقط صورتك هنا أو انقر للتصفح",
+        "supports": "يدعم: JPG و PNG و GIF و WebP",
+        "remove": "إزالة"
+    },
+    "image": {
+        "title": "الصورة",
+        "colorCount": "عدد الألوان",
+        "extracting": "جارٍ استخراج الألوان..."
+    },
+    "colors": {
+        "dominant": "الألوان السائدة",
+        "suggestions": "اقتراحات الألوان",
+        "complementary": "الألوان المكملة",
+        "analogous": "الألوان المشابهة",
+        "position": "هذا اللون له موضع في الصورة",
+        "showing": "عرض الموضع الحالي"
+    },
+    "actions": {
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
+        "copyAll": "نسخ الكل",
+        "copy": "تم النسخ!",
+        "copyDesc": "تم نسخ قيمة {format} إلى الحافظة",
+        "copyAllDesc": "تم نسخ جميع الألوان إلى الحافظة",
+        "exportSuccess": "تم التصدير!",
+        "exportDesc": "تم تصدير اللوحة كـ {filename}"
+    },
+    "notifications": {
+        "success": "نجاح!",
+        "error": "خطأ",
+        "extractSuccess": "تم استخراج {count} ألوان من صورتك",
+        "extractError": "فشل في استخراج الألوان من الصورة"
+    },
+    "empty": {
+        "title": "لا توجد صورة بعد",
+        "description": "قم برفع صورة لبدء إنشاء لوحة الألوان الخاصة بك"
+    }
+}

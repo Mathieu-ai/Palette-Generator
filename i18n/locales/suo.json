@@ -1,0 +1,45 @@
+{
+    "welcome": "Tervetuloa",
+    "app": {
+        "title": "Palettigeneraattori",
+        "description": "Luo kauniita väripaletteja kuvistasi"
+    },
+    "upload": {
+        "title": "Lataa kuva",
+        "dropzone": "Pudota kuvasi tähän tai napsauta selataksesi",
+        "supports": "Tuetut: JPG, PNG, GIF, WebP",
+        "remove": "Poista"
+    },
+    "image": {
+        "title": "Kuva",
+        "colorCount": "Värien määrä",
+        "extracting": "Värien poiminta käynnissä..."
+    },
+    "colors": {
+        "dominant": "Hallitsevat värit",
+        "suggestions": "Väriehdotukset",
+        "complementary": "Vastavärit",
+        "analogous": "Analogiset värit",
+        "position": "Tällä värillä on sijainti kuvassa",
+        "showing": "Näytetään nykyinen sijainti"
+    },
+    "actions": {
+        "export": { "json": "JSON", "css": "CSS" },
+        "copyAll": "Kopioi kaikki",
+        "copy": "Kopioitu!",
+        "copyDesc": "Arvo {format} kopioitu leikepöydälle",
+        "copyAllDesc": "Kaikki värit kopioitu leikepöydälle",
+        "exportSuccess": "Viety!",
+        "exportDesc": "Paletti viety nimellä {filename}"
+    },
+    "notifications": {
+        "success": "Onnistui!",
+        "error": "Virhe",
+        "extractSuccess": "{count} väriä poimittiin kuvastasi",
+        "extractError": "Värien poiminta kuvasta epäonnistui"
+    },
+    "empty": {
+        "title": "Ei kuvaa vielä",
+        "description": "Lataa kuva aloittaaksesi väripaletin luomisen"
+    }
+}

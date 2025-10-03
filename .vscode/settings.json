@@ -1,0 +1,10 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[jsonc]": {
+        "editor.tabSize": 4
+    }
+}
