@@ -98,8 +98,10 @@ jobs:
                     git rm -rf .
                   fi
 
-                  # Copy built files to docs branch
+                  # Copy built files to docs branch (including hidden files like .nojekyll)
                   cp -r .output/public/* .
+                  cp -r .output/public/.nojekyll . 2>/dev/null || echo ".nojekyll not found, creating it..."
+                  touch .nojekyll
 
                   # Create a README for the docs branch
                   echo "# GitHub Pages Deployment" > README.md
