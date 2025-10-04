@@ -12,56 +12,31 @@
                         <img src="/favicon.ico" alt="logo" class="h-6 w-auto" >
                     </NuxtLink>
                 </template>
-
                 <template #right>
-                    <div class="hidden md:flex items-center gap-2">
+                    <!-- Controls visible on all breakpoints -->
+                    <div class="flex items-center gap-3">
                         <USelect
                             v-model="uiStore.currentLocale"
                             data-tutorial-id="language-select"
                             :items="uiStore.languageItems"
                             value-key="value"
-                            class="w-36 sm:w-40"
+                            class="w-32 xs:w-36 sm:w-40"
                         >
                             <template #leading>
-                                <span class="text-xl">{{
-                                    uiStore.currentLanguageFlag
-                                }}</span>
+                                <span class="text-xl mr-1">{{ uiStore.currentLanguageFlag }}</span>
                             </template>
                         </USelect>
-
                         <span
                             data-tutorial-id="color-mode-toggle"
-                            class="inline-flex"
-                            ><UColorModeButton
-                        /></span>
+                            class="inline-flex ml-1"
+                        >
+                            <UColorModeButton />
+                        </span>
                     </div>
                 </template>
 
                 <template #body>
-                    <div class="flex flex-col gap-3 md:hidden p-4">
-                        <div class="flex items-center justify-between">
-                            <USelect
-                                v-model="uiStore.currentLocale"
-                                data-tutorial-id="language-select"
-                                :items="uiStore.languageItems"
-                                value-key="value"
-                                class="w-full"
-                            >
-                                <template #leading>
-                                    <span class="text-xl">{{
-                                        uiStore.currentLanguageFlag
-                                    }}</span>
-                                </template>
-                            </USelect>
-                        </div>
-                        <div class="flex items-center justify-start">
-                            <span
-                                data-tutorial-id="color-mode-toggle"
-                                class="inline-flex"
-                                ><UColorModeButton
-                            /></span>
-                        </div>
-                    </div>
+                    <!-- Mobile body previously duplicated controls; intentionally left empty now -->
                 </template>
             </UHeader>
             <UCard class="mb-8">
