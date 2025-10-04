@@ -47,5 +47,46 @@
     },
     "footer": {
         "disclaimer": "Ta strona używa modułu \"colorthief\" do wyodrębniania kolorów z obrazów, które wybierasz. Obrazy są przetwarzane lokalnie w Twojej przeglądarce; nie przesyłamy, nie przechowujemy ani nie udostępniamy Twoich obrazów. Przetwarzanie jest anonimowe i obrazy nie są zapisywane."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Szybkie wprowadzenie",
+            "desc": "Przejdziemy przez główne funkcje. Podświetlimy każdy element sterujący i poczekamy, aż go wypróbujesz. Możesz pominąć w dowolnym momencie."
+        },
+        "language": {
+            "title": "Wybierz język",
+            "desc": "Otwórz listę i wybierz preferowany język."
+        },
+        "mode": {
+            "title": "Przełącz tryb",
+            "desc": "Kliknij przycisk motywu, aby przełączyć na tryb jasny/ciemny."
+        },
+        "upload": {
+            "title": "Prześlij obraz",
+            "desc": "Kliknij lub upuść obraz tutaj, aby wyodrębnić jego kolory."
+        },
+        "slider": {
+            "title": "Dostosuj liczbę kolorów",
+            "desc": "Przesuń suwak, aby zmienić liczbę wyodrębnianych kolorów."
+        },
+        "export": {
+            "title": "Pobierz paletę",
+            "desc": "Kliknij JSON, aby pobrać plik z paletą."
+        },
+        "copy": {
+            "title": "Kopiuj wszystkie kolory",
+            "desc": "Skopiuj wszystkie kolory do schowka jednym kliknięciem."
+        },
+        "finish": {
+            "title": "Gotowe!",
+            "desc": "Poznałeś podstawy. Miłego tworzenia palet!"
+        },
+        "controls": {
+            "next": "Dalej",
+            "prev": "Wstecz",
+            "finish": "Zakończ",
+            "restart": "Powtórz tour"
+        },
+        "elementWaiting": "Oczekiwanie na wyrenderowanie elementu..."
     }
 }

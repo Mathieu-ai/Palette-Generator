@@ -46,5 +46,46 @@
     },
     "footer": {
         "disclaimer": "Diese Website verwendet das Modul \"colorthief\" um Farben aus den von Ihnen ausgewählten Bildern zu extrahieren. Bilder werden lokal in Ihrem Browser verarbeitet; wir laden Ihre Bilder nicht hoch, speichern sie nicht und teilen sie nicht. Die Verarbeitung erfolgt anonym und Bilder werden nicht gespeichert."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Kurze Tour",
+            "desc": "Lassen Sie uns die wichtigsten Funktionen durchgehen. Wir heben jedes Steuerungselement hervor und warten, bis Sie es ausprobiert haben. Sie können jederzeit überspringen."
+        },
+        "language": {
+            "title": "Sprache wählen",
+            "desc": "Öffnen Sie diese Liste und wählen Sie die bevorzugte Sprache aus."
+        },
+        "mode": {
+            "title": "Dunkelmodus umschalten",
+            "desc": "Klicken Sie auf die Theme-Schaltfläche, um zwischen Hell- und Dunkelmodus zu wechseln."
+        },
+        "upload": {
+            "title": "Bild hochladen",
+            "desc": "Klicken Sie hier oder ziehen Sie ein Bild hierher, um die Farben zu extrahieren."
+        },
+        "slider": {
+            "title": "Anzahl der Farben anpassen",
+            "desc": "Verschieben Sie den Schieberegler, um zu ändern, wie viele Farben extrahiert werden."
+        },
+        "export": {
+            "title": "Palette herunterladen",
+            "desc": "Klicken Sie auf JSON, um Ihre Palette als Datei herunterzuladen."
+        },
+        "copy": {
+            "title": "Alle Farben kopieren",
+            "desc": "Kopieren Sie mit einem Klick alle Farben in die Zwischenablage."
+        },
+        "finish": {
+            "title": "Fertig!",
+            "desc": "Sie haben das Wesentliche erkundet. Viel Spaß beim Erstellen von Paletten!"
+        },
+        "controls": {
+            "next": "Weiter",
+            "prev": "Zurück",
+            "finish": "Fertig",
+            "restart": "Tour wiederholen"
+        },
+        "elementWaiting": "Warte auf das Rendern des Elements..."
     }
 }

@@ -16,7 +16,10 @@ export default defineNuxtConfig({
             title: pkg.name,
             meta: [
                 { name: "description", content: pkg.description },
-                { name: "viewport", content: "width=device-width, initial-scale=1" },
+                {
+                    name: "viewport",
+                    content: "width=device-width, initial-scale=1",
+                },
             ],
         },
     },

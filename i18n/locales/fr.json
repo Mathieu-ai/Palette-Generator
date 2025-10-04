@@ -44,7 +44,48 @@
         "title": "Pas Encore d'Image",
         "description": "Téléchargez une image pour commencer à générer votre palette de couleurs"
     },
-    "footer":{
-        "disclaimer":"Ce site utilise le module \"colorthief\" pour extraire les couleurs des images que vous sélectionnez. Les images sont traitées localement dans votre navigateur ; nous ne téléversons, ne stockons ni ne partageons pas vos images. Le traitement est anonyme et les images ne sont pas sauvegardées."
+    "footer": {
+        "disclaimer": "Ce site utilise le module \"colorthief\" pour extraire les couleurs des images que vous sélectionnez. Les images sont traitées localement dans votre navigateur ; nous ne téléversons, ne stockons ni ne partageons pas vos images. Le traitement est anonyme et les images ne sont pas sauvegardées."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Visite rapide",
+            "desc": "Parcourons les fonctionnalités principales. Nous mettrons en surbrillance chaque contrôle et attendrons que vous l'essayiez. Vous pouvez passer à tout moment."
+        },
+        "language": {
+            "title": "Choisir une langue",
+            "desc": "Ouvrez cette liste et choisissez la langue que vous préférez."
+        },
+        "mode": {
+            "title": "Basculer le mode sombre",
+            "desc": "Cliquez sur le bouton du thème pour passer du mode clair au mode sombre."
+        },
+        "upload": {
+            "title": "Importer une image",
+            "desc": "Cliquez ou déposez une image ici pour en extraire les couleurs."
+        },
+        "slider": {
+            "title": "Ajuster le nombre de couleurs",
+            "desc": "Déplacez le curseur pour changer le nombre de couleurs extraites."
+        },
+        "export": {
+            "title": "Télécharger la palette",
+            "desc": "Cliquez sur JSON pour télécharger votre fichier de palette."
+        },
+        "copy": {
+            "title": "Copier toutes les couleurs",
+            "desc": "Copiez toutes les couleurs dans le presse-papiers en un clic."
+        },
+        "finish": {
+            "title": "C'est tout !",
+            "desc": "Vous avez exploré l'essentiel. Amusez-vous à créer des palettes !"
+        },
+        "controls": {
+            "next": "Suivant",
+            "prev": "Retour",
+            "finish": "Terminer",
+            "restart": "Relancer le tour"
+        },
+        "elementWaiting": "En attente du rendu de l'élément..."
     }
 }

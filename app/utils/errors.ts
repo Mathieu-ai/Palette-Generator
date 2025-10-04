@@ -52,10 +52,7 @@ export function getErrorMessage(error: unknown): string {
 /**
  * Logs error with context
  */
-export function logError(
-    error: unknown,
-    context?: string,
-): void {
+export function logError(error: unknown, context?: string): void {
     const message = getErrorMessage(error);
     const prefix = context ? `[${context}]` : "";
     console.error(`${prefix} ${message}`, error);

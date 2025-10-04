@@ -260,6 +260,13 @@ export const useColorStore = defineStore("color", () => {
                 description: t("actions.copyAllDesc"),
                 color: "success",
             });
+            if (import.meta.client) {
+                try {
+                    useTutorialStore().onCopyAll();
+                } catch {
+                    /* tutorial optional */
+                }
+            }
         } else {
             toast.add({
                 title: t("notifications.error"),
@@ -293,6 +300,13 @@ export const useColorStore = defineStore("color", () => {
                 description: t("actions.exportDesc", { filename }),
                 color: "success",
             });
+            if (import.meta.client && format === "json") {
+                try {
+                    useTutorialStore().onExport();
+                } catch {
+                    /* tutorial optional */
+                }
+            }
         } catch (error) {
             console.error("Export error:", error);
             toast.add({

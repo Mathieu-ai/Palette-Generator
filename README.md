@@ -52,6 +52,7 @@ This project is configured for automatic deployment to GitHub Pages.
 ### Automatic Deployment
 
 Every push to the `main` branch automatically:
+
 1. Builds the static site
 2. Deploys to the `docs` branch
 3. Updates GitHub Pages

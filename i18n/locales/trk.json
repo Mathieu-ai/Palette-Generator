@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Hızlı Tur",
+            "desc": "Ana özelliklere göz atalım. Her denetimi vurgulayacağız ve denemeniz için bekleyeceğiz. İstediğiniz zaman atlayabilirsiniz."
+        },
+        "language": {
+            "title": "Bir Dil Seçin",
+            "desc": "Bu listeyi açın ve tercih ettiğiniz dili seçin."
+        },
+        "mode": {
+            "title": "Koyu Modu Değiştir",
+            "desc": "Açık/karanlık arasında geçiş yapmak için tema düğmesine tıklayın."
+        },
+        "upload": {
+            "title": "Bir Görüntü Yükleyin",
+            "desc": "Renklerini çıkarmak için buraya tıklayın veya bir görüntü bırakın."
+        },
+        "slider": {
+            "title": "Renk Sayısını Ayarla",
+            "desc": "Kaç renk çıkarılacağını değiştirmek için kaydırıcıyı hareket ettirin."
+        },
+        "export": {
+            "title": "Paleti İndir",
+            "desc": "Palet dosyanızı indirmek için JSON'a tıklayın."
+        },
+        "copy": {
+            "title": "Tüm Renkleri Kopyala",
+            "desc": "Tüm renkleri tek tıkla panoya kopyalayın."
+        },
+        "finish": {
+            "title": "Hepsi Hazır!",
+            "desc": "Temelleri keşfettiniz. Palet oluşturmanın tadını çıkarın!"
+        },
+        "controls": {
+            "next": "İleri",
+            "prev": "Geri",
+            "finish": "Bitir",
+            "restart": "Tur'u Yeniden Oynat"
+        },
+        "elementWaiting": "Öğe render olmayı bekliyor..."
+    },
     "welcome": "Hoş geldiniz",
     "app": {
         "title": "Palet Oluşturucu",

@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Tur Rapid",
+            "desc": "Să parcurgem principalele funcții. Vom evidenția fiecare control și vom aștepta să-l încerci. Poți sări oricând peste ele."
+        },
+        "language": {
+            "title": "Alege o limbă",
+            "desc": "Deschide această listă și alege limba pe care o preferi."
+        },
+        "mode": {
+            "title": "Comută modul întunecat",
+            "desc": "Fă click pe butonul de temă pentru a comuta între luminos și întunecat."
+        },
+        "upload": {
+            "title": "Încarcă o imagine",
+            "desc": "Fă click sau trage o imagine aici pentru a-i extrage culorile."
+        },
+        "slider": {
+            "title": "Ajustează numărul de culori",
+            "desc": "Mută glisorul pentru a schimba câte culori sunt extrase."
+        },
+        "export": {
+            "title": "Descarcă paleta",
+            "desc": "Fă click pe JSON pentru a descărca fișierul paletei tale."
+        },
+        "copy": {
+            "title": "Copiază toate culorile",
+            "desc": "Copiază toate culorile în clipboard cu un singur click."
+        },
+        "finish": {
+            "title": "Gata!",
+            "desc": "Ai explorat elementele esențiale. Bucură-te de crearea paletelor!"
+        },
+        "controls": {
+            "next": "Următor",
+            "prev": "Înapoi",
+            "finish": "Finalizează",
+            "restart": "Repornește turul"
+        },
+        "elementWaiting": "Așteptând elementul să fie randat..."
+    },
     "welcome": "Bine ați venit",
     "app": {
         "title": "Generator de palete",

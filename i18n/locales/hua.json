@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Gajeren Zagaye",
+            "desc": "Bari mu bi manyan fasaloli. Za mu haskaka kowane iko kuma mu jira ka gwada shi. Za ka iya tsallakewa a kowane lokaci."
+        },
+        "language": {
+            "title": "Zaɓi Harshe",
+            "desc": "Buɗe wannan jerin ka zaɓi harshen da kake so."
+        },
+        "mode": {
+            "title": "Canja Yanayi",
+            "desc": "Danna maballin jigo don sauyawa tsakanin haske/duhu."
+        },
+        "upload": {
+            "title": "Loda Hoto",
+            "desc": "Danna ko ja hoto anan don cire launukansa."
+        },
+        "slider": {
+            "title": "Daidaita Yawan Launuka",
+            "desc": "Motsi mai ja don canza yawan launukan da za a cire."
+        },
+        "export": {
+            "title": "Sauke Paleti",
+            "desc": "Danna JSON don sauke fayil ɗin palet ɗinku."
+        },
+        "copy": {
+            "title": "Kwafi Duk Launuka",
+            "desc": "Kwafi duk launuka zuwa allo mai ɗaurewa da dannawa guda."
+        },
+        "finish": {
+            "title": "An Kammala!",
+            "desc": "Kun koyi abubuwan asali. Ji daɗin ƙirƙirar palet!"
+        },
+        "controls": {
+            "next": "Gaba",
+            "prev": "Baya",
+            "finish": "Gama",
+            "restart": "Sake zagaye"
+        },
+        "elementWaiting": "Ana jiran nunin abu..."
+    },
     "welcome": "Barka da zuwa",
     "app": {
         "title": "Mai Haɓaka Paleti",

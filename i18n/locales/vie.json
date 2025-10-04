@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Xem Nhanh",
+            "desc": "Hãy cùng xem qua các tính năng chính. Chúng tôi sẽ làm nổi bật từng điều khiển và chờ bạn thử. Bạn có thể bỏ qua bất cứ lúc nào."
+        },
+        "language": {
+            "title": "Chọn ngôn ngữ",
+            "desc": "Mở danh sách này và chọn ngôn ngữ bạn thích."
+        },
+        "mode": {
+            "title": "Chuyển chế độ tối",
+            "desc": "Nhấn nút chủ đề để chuyển giữa sáng/tối."
+        },
+        "upload": {
+            "title": "Tải ảnh lên",
+            "desc": "Nhấn hoặc thả ảnh vào đây để trích xuất màu của nó."
+        },
+        "slider": {
+            "title": "Điều chỉnh số màu",
+            "desc": "Kéo thanh trượt để thay đổi số màu được trích xuất."
+        },
+        "export": {
+            "title": "Tải palet xuống",
+            "desc": "Nhấn JSON để tải tệp palet của bạn."
+        },
+        "copy": {
+            "title": "Sao chép tất cả màu",
+            "desc": "Sao chép tất cả màu vào khay nhớ tạm bằng một cú nhấp."
+        },
+        "finish": {
+            "title": "Hoàn tất!",
+            "desc": "Bạn đã khám phá các tính năng cơ bản. Hãy tận hưởng việc tạo palet!"
+        },
+        "controls": {
+            "next": "Tiếp theo",
+            "prev": "Quay lại",
+            "finish": "Hoàn tất",
+            "restart": "Phát lại hướng dẫn"
+        },
+        "elementWaiting": "Đang chờ phần tử được kết xuất..."
+    },
     "welcome": "Chào mừng",
     "app": {
         "title": "Trình tạo Bảng Màu",

@@ -47,5 +47,46 @@
     },
     "footer": {
         "disclaimer": "Deze site gebruikt de module \"colorthief\" om kleuren te halen uit de afbeeldingen die u selecteert. Afbeeldingen worden lokaal in uw browser verwerkt; we uploaden, bewaren of delen uw afbeeldingen niet. De verwerking is anoniem en afbeeldingen worden niet opgeslagen."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Korte rondleiding",
+            "desc": "Laten we de belangrijkste functies doornemen. We markeren elke bediening en wachten tot u deze probeert. U kunt op elk moment overslaan."
+        },
+        "language": {
+            "title": "Kies een taal",
+            "desc": "Open deze lijst en kies de taal die u verkiest."
+        },
+        "mode": {
+            "title": "Donkere modus schakelen",
+            "desc": "Klik op de thema-knop om te schakelen tussen licht en donker."
+        },
+        "upload": {
+            "title": "Upload een afbeelding",
+            "desc": "Klik of sleep een afbeelding hierheen om de kleuren ervan te extraheren."
+        },
+        "slider": {
+            "title": "Aantal kleuren aanpassen",
+            "desc": "Verplaats de schuifregelaar om te wijzigen hoeveel kleuren worden geëxtraheerd."
+        },
+        "export": {
+            "title": "Palet downloaden",
+            "desc": "Klik op JSON om uw paletbestand te downloaden."
+        },
+        "copy": {
+            "title": "Kopieer alle kleuren",
+            "desc": "Kopieer alle kleuren naar het klembord met één klik."
+        },
+        "finish": {
+            "title": "Klaar!",
+            "desc": "U heeft de essentiële functies bekeken. Veel plezier met het maken van paletten!"
+        },
+        "controls": {
+            "next": "Volgende",
+            "prev": "Terug",
+            "finish": "Voltooien",
+            "restart": "Rondleiding opnieuw"
+        },
+        "elementWaiting": "Wachten op het renderen van het element..."
     }
 }

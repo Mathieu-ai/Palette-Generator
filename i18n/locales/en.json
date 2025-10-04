@@ -44,9 +44,49 @@
     "empty": {
         "title": "No Image Yet",
         "description": "Upload an image to start generating your color palette"
-    }
-    ,
+    },
     "footer": {
         "disclaimer": "This site uses the \"colorthief\" module to extract colors from images you select. Images are processed locally in your browser; we do not upload, store, or share your images. Processing is anonymous and images are not saved."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Quick Tour",
+            "desc": "Let's walk through the main features. We'll highlight each control and wait for you to try it. You can skip anytime."
+        },
+        "language": {
+            "title": "Choose a Language",
+            "desc": "Open this list and pick a language you prefer."
+        },
+        "mode": {
+            "title": "Toggle Dark Mode",
+            "desc": "Click the theme button to switch light/dark."
+        },
+        "upload": {
+            "title": "Upload an Image",
+            "desc": "Click or drop an image here to extract its colors."
+        },
+        "slider": {
+            "title": "Adjust Color Count",
+            "desc": "Move the slider to change how many colors are extracted."
+        },
+        "export": {
+            "title": "Download Palette",
+            "desc": "Click JSON to download your palette file."
+        },
+        "copy": {
+            "title": "Copy All Colors",
+            "desc": "Copy every color to your clipboard in one click."
+        },
+        "finish": {
+            "title": "All Set!",
+            "desc": "You've explored the essentials. Enjoy creating palettes!"
+        },
+        "controls": {
+            "next": "Next",
+            "prev": "Back",
+            "finish": "Finish",
+            "restart": "Replay Tour"
+        },
+        "elementWaiting": "Waiting for element to render..."
     }
 }

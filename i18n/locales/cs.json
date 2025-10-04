@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Rychlá prohlídka",
+            "desc": "Projdem si hlavní funkce. Zvýrazníme každý ovládací prvek a počkáme, až jej vyzkoušíte. Můžete přeskočit kdykoli."
+        },
+        "language": {
+            "title": "Vyberte jazyk",
+            "desc": "Otevřete tento seznam a vyberte preferovaný jazyk."
+        },
+        "mode": {
+            "title": "Přepnout režim",
+            "desc": "Klikněte na tlačítko motivu pro přepnutí mezi světlým a tmavým režimem."
+        },
+        "upload": {
+            "title": "Nahrát obrázek",
+            "desc": "Klikněte nebo sem přetáhněte obrázek pro extrahování jeho barev."
+        },
+        "slider": {
+            "title": "Upravit počet barev",
+            "desc": "Posuňte jezdec pro změnu počtu extrahovaných barev."
+        },
+        "export": {
+            "title": "Stáhnout paletu",
+            "desc": "Klikněte na JSON pro stažení souboru s paletou."
+        },
+        "copy": {
+            "title": "Zkopírovat všechny barvy",
+            "desc": "Zkopírujte všechny barvy do schránky jedním kliknutím."
+        },
+        "finish": {
+            "title": "Hotovo!",
+            "desc": "Prošli jste základy. Užijte si tvorbu palet!"
+        },
+        "controls": {
+            "next": "Další",
+            "prev": "Zpět",
+            "finish": "Dokončit",
+            "restart": "Spustit průvodce znovu"
+        },
+        "elementWaiting": "Čeká se na vykreslení prvku..."
+    },
     "welcome": "Vítejte",
     "app": {
         "title": "Generátor palet",

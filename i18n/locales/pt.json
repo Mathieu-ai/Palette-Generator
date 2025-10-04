@@ -46,5 +46,46 @@
     },
     "footer": {
         "disclaimer": "Este site utiliza o módulo \"colorthief\" para extrair cores das imagens que você seleciona. As imagens são processadas localmente no seu navegador; nós não enviamos, armazenamos ou compartilhamos suas imagens. O processamento é anônimo e as imagens não são salvas."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Tour Rápido",
+            "desc": "Vamos percorrer os principais recursos. Destacaremos cada controle e aguardaremos você testá-lo. Você pode pular a qualquer momento."
+        },
+        "language": {
+            "title": "Escolha um idioma",
+            "desc": "Abra esta lista e escolha o idioma que preferir."
+        },
+        "mode": {
+            "title": "Alternar modo escuro",
+            "desc": "Clique no botão de tema para alternar entre claro e escuro."
+        },
+        "upload": {
+            "title": "Carregar uma imagem",
+            "desc": "Clique ou arraste uma imagem aqui para extrair suas cores."
+        },
+        "slider": {
+            "title": "Ajustar número de cores",
+            "desc": "Mova o controle deslizante para alterar quantas cores são extraídas."
+        },
+        "export": {
+            "title": "Baixar paleta",
+            "desc": "Clique em JSON para baixar o arquivo da sua paleta."
+        },
+        "copy": {
+            "title": "Copiar todas as cores",
+            "desc": "Copie todas as cores para a área de transferência com um clique."
+        },
+        "finish": {
+            "title": "Tudo pronto!",
+            "desc": "Você explorou o essencial. Aproveite a criação de paletas!"
+        },
+        "controls": {
+            "next": "Próximo",
+            "prev": "Anterior",
+            "finish": "Concluir",
+            "restart": "Repetir tour"
+        },
+        "elementWaiting": "Aguardando o elemento ser renderizado..."
     }
 }

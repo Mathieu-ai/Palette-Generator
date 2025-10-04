@@ -14,7 +14,8 @@ export default withNuxt(
             // Enforce trailing commas
             "comma-dangle": ["error", "always-multiline"],
             // Disallow console statements in production
-            "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
+            "no-console":
+                process.env.NODE_ENV === "production" ? "warn" : "off",
             // Enforce explicit function return types
             "@typescript-eslint/explicit-function-return-type": "off",
             // Require const for variables that are never reassigned

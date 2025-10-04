@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Tur Cepet",
+            "desc": "Ayo mlaku-mlaku liwat fitur utama. Kita bakal nandheske saben kontrol lan ngenteni sampeyan nyoba. Sampeyan bisa mlumpat kapan wae."
+        },
+        "language": {
+            "title": "Pilih Basa",
+            "desc": "Bukak dhaptar iki lan pilih basa sing sampeyan karepake."
+        },
+        "mode": {
+            "title": "Ganti Mode",
+            "desc": "Klik tombol tema kanggo ngalih antarane cahya/gelap."
+        },
+        "upload": {
+            "title": "Unggah Gambar",
+            "desc": "Klik utawa tepakake gambar ing kene kanggo njupuk warnane."
+        },
+        "slider": {
+            "title": "Atur Jumlah Warna",
+            "desc": "Pindhah slider kanggo ngganti pira warna sing bakal diekstrak."
+        },
+        "export": {
+            "title": "Unduh Palet",
+            "desc": "Klik JSON kanggo ngundhuh file palet sampeyan."
+        },
+        "copy": {
+            "title": "Salin Semua Warna",
+            "desc": "Salin kabeh warna menyang papan klip kanthi siji klik."
+        },
+        "finish": {
+            "title": "Rampung!",
+            "desc": "Sampeyan wis nemu sing penting. Seneng nggawe palet!"
+        },
+        "controls": {
+            "next": "Sabanjure",
+            "prev": "Bali",
+            "finish": "Rampung",
+            "restart": "Puter maneh tur"
+        },
+        "elementWaiting": "Ngenteni unsur dirender..."
+    },
     "welcome": "Sugeng rawuh",
     "app": {
         "title": "Generator Palet",

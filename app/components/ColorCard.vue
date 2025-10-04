@@ -74,7 +74,9 @@
                             color="neutral"
                             variant="ghost"
                             class="flex-shrink-0"
-                            @click.stop="copyValue(formatRgbString(color.rgb), 'RGB')"
+                            @click.stop="
+                                copyValue(formatRgbString(color.rgb), 'RGB')
+                            "
                         />
                     </div>
                 </div>
@@ -98,7 +100,9 @@
                             color="neutral"
                             variant="ghost"
                             class="flex-shrink-0"
-                            @click.stop="copyValue(formatHslString(color.hsl), 'HSL')"
+                            @click.stop="
+                                copyValue(formatHslString(color.hsl), 'HSL')
+                            "
                         />
                     </div>
                 </div>

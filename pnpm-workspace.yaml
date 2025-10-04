@@ -1,10 +1,10 @@
 packages:
-  - "."
+    - "."
 
 onlyBuiltDependencies:
-  - sharp
-  - "@parcel/watcher"
-  - "@tailwindcss/oxide"
-  - esbuild
-  - "unrs-resolver"
-  - "vue-demi"
+    - sharp
+    - "@parcel/watcher"
+    - "@tailwindcss/oxide"
+    - esbuild
+    - "unrs-resolver"
+    - "vue-demi"

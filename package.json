@@ -11,7 +11,7 @@
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
+        "lint:fix": "pnpm exec prettier --write . && eslint --fix .",
         "lint:locales": "pnpm exec prettier --write \"i18n/locales/**/*.json\"",
         "deploy:local": "NUXT_APP_BASE_URL=/Palette-Generator/ pnpm generate && npx serve .output/public",
         "clean": "rm -rf .output .nuxt node_modules/.cache"

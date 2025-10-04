@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Ziara ya Haraka",
+            "desc": "Tutaangalia vipengele vikuu. Tutasisitiza kila udhibiti na kusubiri utakapojaribu. Unaweza kuruka wakati wowote."
+        },
+        "language": {
+            "title": "Chagua Lugha",
+            "desc": "Fungua orodha hii na chagua lugha unayoipendelea."
+        },
+        "mode": {
+            "title": "Badilisha Mode",
+            "desc": "Bonyeza kitufe cha mandhari kubadili kati ya mwanga/giza."
+        },
+        "upload": {
+            "title": "Pakia Picha",
+            "desc": "Bonyeza au buruta picha hapa ili kutoa rangi zake."
+        },
+        "slider": {
+            "title": "Rekebisha Idadi ya Rangi",
+            "desc": "Sogeza slider kubadilisha ni rangi ngapi zitakazochimbwa."
+        },
+        "export": {
+            "title": "Pakua Paleti",
+            "desc": "Bonyeza JSON kupakua faili ya paleti yako."
+        },
+        "copy": {
+            "title": "Nakili Rangi Zote",
+            "desc": "Nakili rangi zote kwenye clipboard kwa bonyeza moja."
+        },
+        "finish": {
+            "title": "Imekamilika!",
+            "desc": "Umeangalia muhimu. Furahia kuunda paleti!"
+        },
+        "controls": {
+            "next": "Ifuatayo",
+            "prev": "Nyuma",
+            "finish": "Kamilisha",
+            "restart": "Rudia Ziara"
+        },
+        "elementWaiting": "Inasubiri kipengele kiwe kimechorwa..."
+    },
     "welcome": "Karibu",
     "app": {
         "title": "Kilele cha Rangi",

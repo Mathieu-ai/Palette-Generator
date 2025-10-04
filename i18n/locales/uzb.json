@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Tez Tanishtirish",
+            "desc": "Asosiy funksiyalarni ko'rib chiqamiz. Har bir boshqaruvni ta'kidlaymiz va sinab ko'rishingizni kutamiz. Xohlagan vaqtda o'tkazib yuborishingiz mumkin."
+        },
+        "language": {
+            "title": "Tilni tanlang",
+            "desc": "Ushbu ro'yxatni oching va afzal ko'rgan tilni tanlang."
+        },
+        "mode": {
+            "title": "Qorong'i rejimni almashtirish",
+            "desc": "Yorug' / qorong'i orasida almashtirish uchun mavzu tugmasini bosing."
+        },
+        "upload": {
+            "title": "Rasm yuklash",
+            "desc": "Ranglarini olish uchun bu yerga rasmni bosing yoki tashlang."
+        },
+        "slider": {
+            "title": "Ranglar sonini sozlash",
+            "desc": "Necha rang chiqarilishini o'zgartirish uchun slayderni siljiting."
+        },
+        "export": {
+            "title": "Paletrani yuklab olish",
+            "desc": "Paleta faylingizni yuklab olish uchun JSON-ga bosing."
+        },
+        "copy": {
+            "title": "Barcha ranglarni nusxalash",
+            "desc": "Barcha ranglarni bir marta bosish bilan clipboard-ga nusxalang."
+        },
+        "finish": {
+            "title": "Hammasi tayyor!",
+            "desc": "Siz asosiy narsalarni ko'rib chiqdingiz. Paletalar yaratishdan zavqlaning!"
+        },
+        "controls": {
+            "next": "Keyingi",
+            "prev": "Orqaga",
+            "finish": "Tugatish",
+            "restart": "Turni qayta ijro etish"
+        },
+        "elementWaiting": "Element render bo'lishini kutmoqda..."
+    },
     "welcome": "Xush kelibsiz",
     "app": {
         "title": "Palitra Generatori",

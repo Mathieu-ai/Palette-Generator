@@ -71,10 +71,7 @@ export const useImageStore = defineStore("image", () => {
      * Creates a grayscale overlay with spotlight effect on the specified position
      * @param position - Position to highlight (x and y as percentages)
      */
-    const createColorOverlay = (position: {
-        x: number;
-        y: number;
-    }): void => {
+    const createColorOverlay = (position: { x: number; y: number }): void => {
         if (
             !overlayCanvas.value ||
             !imageElement.value ||

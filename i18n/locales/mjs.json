@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Tinjauan Cepat",
+            "desc": "Mari jelajahi fitur utama. Kami akan menyorot setiap kontrol dan menunggu Anda mencobanya. Anda dapat melewatkannya kapan saja."
+        },
+        "language": {
+            "title": "Pilih Bahasa",
+            "desc": "Buka daftar ini dan pilih bahasa yang Anda sukai."
+        },
+        "mode": {
+            "title": "Ubah Mode",
+            "desc": "Klik tombol tema untuk beralih antara terang/gelap."
+        },
+        "upload": {
+            "title": "Unggah Gambar",
+            "desc": "Klik atau jatuhkan gambar di sini untuk mengekstrak warnanya."
+        },
+        "slider": {
+            "title": "Sesuaikan Jumlah Warna",
+            "desc": "Geser slider untuk mengubah berapa banyak warna yang diambil."
+        },
+        "export": {
+            "title": "Unduh Palet",
+            "desc": "Klik JSON untuk mengunduh file palet Anda."
+        },
+        "copy": {
+            "title": "Salin Semua Warna",
+            "desc": "Salin semua warna ke clipboard dengan satu klik."
+        },
+        "finish": {
+            "title": "Selesai!",
+            "desc": "Anda telah menjelajahi yang penting. Nikmati membuat palet!"
+        },
+        "controls": {
+            "next": "Berikutnya",
+            "prev": "Kembali",
+            "finish": "Selesai",
+            "restart": "Putar Ulang Tur"
+        },
+        "elementWaiting": "Menunggu elemen dirender..."
+    },
     "welcome": "स्वागत हे",
     "app": {
         "title": "पैलेट जनरेटर",

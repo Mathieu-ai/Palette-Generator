@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Rask omvisning",
+            "desc": "La oss gå gjennom hovedfunksjonene. Vi fremhever hver kontroll og venter til du prøver den. Du kan hoppe over når som helst."
+        },
+        "language": {
+            "title": "Velg språk",
+            "desc": "Åpne listen og velg språket du foretrekker."
+        },
+        "mode": {
+            "title": "Bytt tema",
+            "desc": "Klikk på tematasten for å bytte mellom lyst og mørkt."
+        },
+        "upload": {
+            "title": "Last opp et bilde",
+            "desc": "Klikk eller slipp et bilde her for å hente ut fargene."
+        },
+        "slider": {
+            "title": "Juster antall farger",
+            "desc": "Flytt glidebryteren for å endre hvor mange farger som hentes ut."
+        },
+        "export": {
+            "title": "Last ned palett",
+            "desc": "Klikk JSON for å laste ned palettfilen."
+        },
+        "copy": {
+            "title": "Kopier alle farger",
+            "desc": "Kopier alle fargene til utklippstavlen med ett klikk."
+        },
+        "finish": {
+            "title": "Ferdig!",
+            "desc": "Du har sett det viktigste. Lykke til med å lage paletter!"
+        },
+        "controls": {
+            "next": "Neste",
+            "prev": "Tilbake",
+            "finish": "Fullfør",
+            "restart": "Spill av omvisning"
+        },
+        "elementWaiting": "Venter på at elementet skal rendres..."
+    },
     "welcome": "Velkommen",
     "app": {
         "title": "Palettgenerator",

@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Nopea esittely",
+            "desc": "Käydään läpi tärkeimmät ominaisuudet. Korostamme kutakin hallintaa ja odotamme, että kokeilet sitä. Voit hypätä ohitse milloin tahansa."
+        },
+        "language": {
+            "title": "Valitse kieli",
+            "desc": "Avaa tämä lista ja valitse haluamasi kieli."
+        },
+        "mode": {
+            "title": "Vaihda tumma/vaalea",
+            "desc": "Klikkaa teeman painiketta vaihtaaksesi vaalean ja tumman tilan välillä."
+        },
+        "upload": {
+            "title": "Lataa kuva",
+            "desc": "Klikkaa tai pudota kuva tähän poistaaksesi siitä värit."
+        },
+        "slider": {
+            "title": "Säädä värien määrää",
+            "desc": "Siirrä liukusäädintä vaihtaaksesi, kuinka monta väriä poimitaan."
+        },
+        "export": {
+            "title": "Lataa paletti",
+            "desc": "Klikkaa JSON ladataksesi palettitiedostosi."
+        },
+        "copy": {
+            "title": "Kopioi kaikki värit",
+            "desc": "Kopioi kaikki värit leikepöydälle yhdellä klikkauksella."
+        },
+        "finish": {
+            "title": "Valmista!",
+            "desc": "Olet tutustunut perusasioihin. Nauttikaapa palettien luomisesta!"
+        },
+        "controls": {
+            "next": "Seuraava",
+            "prev": "Takaisin",
+            "finish": "Valmis",
+            "restart": "Toista opastus"
+        },
+        "elementWaiting": "Odotetaan elementin renderöintiä..."
+    },
     "welcome": "Tervetuloa",
     "app": {
         "title": "Palettigeneraattori",

@@ -1,4 +1,45 @@
 {
+    "tutorial": {
+        "intro": {
+            "title": "Tour ràpid",
+            "desc": "Anem a recórrer les funcions principals. Ressaltarem cada control i esperarem que el provi. Pots saltar en qualsevol moment."
+        },
+        "language": {
+            "title": "Tria un idioma",
+            "desc": "Obre aquesta llista i tria l'idioma que prefereixis."
+        },
+        "mode": {
+            "title": "Canvia el tema",
+            "desc": "Fes clic al botó de tema per canviar entre clar i fosc."
+        },
+        "upload": {
+            "title": "Pujar una imatge",
+            "desc": "Fes clic o arrossega una imatge aquí per extreure els seus colors."
+        },
+        "slider": {
+            "title": "Ajusta el nombre de colors",
+            "desc": "Mou el control lliscant per canviar quants colors s'extrauran."
+        },
+        "export": {
+            "title": "Descarregar paleta",
+            "desc": "Fes clic a JSON per descarregar el fitxer de la teva paleta."
+        },
+        "copy": {
+            "title": "Copia tots els colors",
+            "desc": "Copia tots els colors al porta-retalls amb un clic."
+        },
+        "finish": {
+            "title": "Tot llest!",
+            "desc": "Has vist l'essencial. Gaudeix creant paletes!"
+        },
+        "controls": {
+            "next": "Següent",
+            "prev": "Enrere",
+            "finish": "Finalitzar",
+            "restart": "Repetir el tour"
+        },
+        "elementWaiting": "Esperant que l'element es renderitzi..."
+    },
     "welcome": "Bienvenue",
     "app": {
         "title": "Générateur de palettes",

@@ -47,5 +47,46 @@
     },
     "footer": {
         "disclaimer": "Denna webbplats använder modulen \"colorthief\" för att extrahera färger från bilder du väljer. Bilder behandlas lokalt i din webbläsare; vi laddar inte upp, lagrar eller delar dina bilder. Behandlingen är anonym och bilder sparas inte."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Snabb rundtur",
+            "desc": "Vi går igenom huvudfunktionerna. Vi markerar varje kontroll och väntar tills du provar den. Du kan hoppa över när som helst."
+        },
+        "language": {
+            "title": "Välj språk",
+            "desc": "Öppna listan och välj det språk du föredrar."
+        },
+        "mode": {
+            "title": "Växla mörkt/ljust läge",
+            "desc": "Klicka på temaknappen för att växla mellan ljust och mörkt läge."
+        },
+        "upload": {
+            "title": "Ladda upp en bild",
+            "desc": "Klicka eller släpp en bild här för att extrahera dess färger."
+        },
+        "slider": {
+            "title": "Justera antal färger",
+            "desc": "Flytta reglaget för att ändra hur många färger som extraheras."
+        },
+        "export": {
+            "title": "Ladda ner palett",
+            "desc": "Klicka på JSON för att ladda ner din palettfil."
+        },
+        "copy": {
+            "title": "Kopiera alla färger",
+            "desc": "Kopiera alla färger till urklipp med ett klick."
+        },
+        "finish": {
+            "title": "Klart!",
+            "desc": "Du har gått igenom grunderna. Njut av att skapa paletter!"
+        },
+        "controls": {
+            "next": "Nästa",
+            "prev": "Tillbaka",
+            "finish": "Avsluta",
+            "restart": "Spela om rundtur"
+        },
+        "elementWaiting": "Väntar på att elementet ska renderas..."
     }
 }

@@ -47,5 +47,46 @@
     },
     "footer": {
         "disclaimer": "Bu sayt seçdiyiniz şəkillərdən rəngləri çıxarmaq üçün \"colorthief\" modulundan istifadə edir. Şəkillər brauzerinizdə yerli olaraq işlənir; biz şəkillərinizi yükləmir, saxlamır və ya paylaşmırıq. Emal anonimdir və şəkillər saxlanılmır."
+    },
+    "tutorial": {
+        "intro": {
+            "title": "Qısa gəziş",
+            "desc": "Əsas funksiyaları birlikdə nəzərdən keçirək. Hər idarəetməni vurğulayacağıq və onu sınamağınızı gözləyəcəyik. İstəsəniz hər zaman keçə bilərsiniz."
+        },
+        "language": {
+            "title": "Dil seçin",
+            "desc": "Bu siyahını açın və üstünlük verdiyiniz dili seçin."
+        },
+        "mode": {
+            "title": "Mövzunu dəyişin",
+            "desc": "İşıqlı/qaranlıq rejim arasında keçid etmək üçün tema düyməsini klikləyin."
+        },
+        "upload": {
+            "title": "Şəkil yükləyin",
+            "desc": "Rənglərini çıxarmaq üçün buraya şəkil klikləyin və ya sürüşdürün."
+        },
+        "slider": {
+            "title": "Rəng sayını tənzimləyin",
+            "desc": "Çıxarılacaq rənglərin sayını dəyişmək üçün sürüşdürücünü hərəkət etdirin."
+        },
+        "export": {
+            "title": "Palitranı yüklə",
+            "desc": "Palitranızın faylını yükləmək üçün JSON klikləyin."
+        },
+        "copy": {
+            "title": "Bütün rəngləri kopyala",
+            "desc": "Bütün rəngləri bir kliklə panoya kopyalayın."
+        },
+        "finish": {
+            "title": "Hazırdır!",
+            "desc": "Əsasları öyrəndiniz. Palitralar yaratmaqdan həzz alın!"
+        },
+        "controls": {
+            "next": "Növbəti",
+            "prev": "Geri",
+            "finish": "Bitir",
+            "restart": "Turu təkrarla"
+        },
+        "elementWaiting": "Elementin renderlənməsi gözlənilir..."
     }
 }
