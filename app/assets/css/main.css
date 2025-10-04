@@ -1,2 +1,59 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+/* Make sliders feel snappier on mobile by removing slow transitions
+	 and improving touch handling. This targets native range inputs
+	 and common Nuxt UI slider classnames. */
+/* Base overrides for any range/slider elements */
+input[type="range"],
+.u-slider,
+.u-range,
+.u-slider__track,
+.u-slider__thumb,
+.u-range__track,
+.u-range__thumb {
+	/* remove CSS transitions that cause perceived lag */
+	transition: none !important;
+	transition-duration: 0s !important;
+	-webkit-transition: none !important;
+	-webkit-transition-duration: 0s !important;
+	/* avoid expensive compositing changes */
+	will-change: auto !important;
+}
+
+/* Improve touch responsiveness on coarse pointers (touch devices) */
+@media (pointer: coarse) {
+	input[type="range"],
+	.u-slider,
+	.u-range {
+		/* allow horizontal panning for sliders and prevent vertical
+			 scroll interference while sliding */
+		touch-action: pan-x !important;
+		-webkit-user-select: none;
+		user-select: none;
+		-webkit-tap-highlight-color: transparent;
+		/* ensure the thumb moves instantly when dragged */
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+
+	/* Slightly reduce transition on focus outlines so accessibility
+		 states still show without delay */
+	input[type="range"]:focus,
+	.u-slider:focus,
+	.u-range:focus {
+		transition: none !important;
+		outline-offset: 0 !important;
+	}
+}
+
+/* Also include a fast fallback for reduced-motion users */
+@media (prefers-reduced-motion: reduce) {
+	input[type="range"],
+	.u-slider,
+	.u-range,
+	.u-slider__thumb,
+	.u-range__thumb {
+		transition: none !important;
+	}
+}

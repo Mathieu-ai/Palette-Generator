@@ -11,7 +11,7 @@
                 </template>
 
                 <template #right>
-                    <div class="flex items-center gap-2">
+                    <div class="hidden md:flex items-center gap-2">
                         <USelect
                             v-model="uiStore.currentLocale"
                             :items="uiStore.languageItems"
@@ -26,7 +26,33 @@
                         <UColorModeButton />
                     </div>
                 </template>
+
+                <template #body>
+                    <div class="flex flex-col gap-3 md:hidden p-4">
+                        <div class="flex items-center justify-between">
+                            <USelect
+                                v-model="uiStore.currentLocale"
+                                :items="uiStore.languageItems"
+                                value-key="value"
+                                class="w-full"
+                            >
+                                <template #leading>
+                                    <span class="text-xl">{{ uiStore.currentLanguageFlag }}</span>
+                                </template>
+                            </USelect>
+                        </div>
+                        <div class="flex items-center justify-start">
+                            <UColorModeButton />
+                        </div>
+                    </div>
+                </template>
             </UHeader>
+            <UCard class="mb-8">
+
+                <p class="text-gray-700 dark:text-gray-300">
+                    {{ $t("app.description") }}
+                </p>
+            </UCard>
 
             <main class="container mx-auto px-4 py-8">
             <UCard v-if="!imageStore.imagePreview" class="mb-8">
