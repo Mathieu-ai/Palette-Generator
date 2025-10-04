@@ -24,7 +24,10 @@
         "showing": "正在顯示目前位置"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "全部複製",
         "copy": "已複製！",
         "copyDesc": "已將 {format} 值複製到剪貼簿",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "尚無圖片",
         "description": "上傳圖片以開始產生色彩調色盤"
+    },
+    "footer": {
+        "disclaimer": "本網站使用 \"colorthief\" 模組從您選擇的影像中擷取顏色。影像會在您的瀏覽器中本機處理；我們不會上傳、儲存或分享您的影像。處理為匿名進行，影像不會被儲存。"
     }
 }

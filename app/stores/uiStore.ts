@@ -1,5 +1,5 @@
 import type { SelectItem } from "@nuxt/ui";
-
+import pkg from "../../package.json";
 /**
  * Type for locale items with flag support
  */
@@ -16,6 +16,7 @@ export const useUiStore = defineStore("ui", () => {
     const fileInput = ref<HTMLInputElement | null>(null);
     const imageElement = ref<HTMLImageElement | null>(null);
     const overlayCanvas = ref<HTMLCanvasElement | null>(null);
+    const packageInfo = pkg;
 
     /**
      * Current locale with getter/setter
@@ -106,5 +107,6 @@ export const useUiStore = defineStore("ui", () => {
         setImageElementRef,
         setOverlayCanvasRef,
         clearFileInput,
+        packageInfo,
     };
 });

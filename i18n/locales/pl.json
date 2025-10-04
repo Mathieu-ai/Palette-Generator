@@ -24,7 +24,10 @@
         "showing": "Pokazywanie bieżącej pozycji"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Kopiuj wszystko",
         "copy": "Skopiowano!",
         "copyDesc": "Wartość {format} skopiowana do schowka",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Brak obrazu",
         "description": "Prześlij obraz, aby rozpocząć generowanie palety kolorów"
+    },
+    "footer": {
+        "disclaimer": "Ta strona używa modułu \"colorthief\" do wyodrębniania kolorów z obrazów, które wybierasz. Obrazy są przetwarzane lokalnie w Twojej przeglądarce; nie przesyłamy, nie przechowujemy ani nie udostępniamy Twoich obrazów. Przetwarzanie jest anonimowe i obrazy nie są zapisywane."
     }
 }

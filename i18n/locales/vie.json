@@ -24,7 +24,10 @@
         "showing": "Đang hiển thị vị trí hiện tại"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Sao chép tất cả",
         "copy": "Đã sao chép!",
         "copyDesc": "Giá trị {format} đã được sao chép vào bảng nhớ",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Chưa có hình ảnh",
         "description": "Tải lên một hình ảnh để bắt đầu tạo bảng màu của bạn"
+    },
+    "footer": {
+        "disclaimer": "Trang này sử dụng module \"colorthief\" để trích xuất màu từ hình ảnh bạn chọn. Hình ảnh được xử lý cục bộ trong trình duyệt của bạn; chúng tôi không tải lên, lưu trữ hoặc chia sẻ hình ảnh của bạn. Việc xử lý là ẩn danh và hình ảnh sẽ không được lưu."
     }
 }

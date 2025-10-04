@@ -45,4 +45,8 @@
         "title": "No Image Yet",
         "description": "Upload an image to start generating your color palette"
     }
+    ,
+    "footer": {
+        "disclaimer": "This site uses the \"colorthief\" module to extract colors from images you select. Images are processed locally in your browser; we do not upload, store, or share your images. Processing is anonymous and images are not saved."
+    }
 }

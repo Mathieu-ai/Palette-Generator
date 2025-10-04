@@ -24,7 +24,10 @@
         "showing": "Joriy joy ko'rsatilmoqda"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Hammasini nusxalash",
         "copy": "Nusxalandi!",
         "copyDesc": "{format} qiymati clipboardga nusxalandi",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Hozircha rasm yo'q",
         "description": "Rang palitrasini yaratishni boshlash uchun rasm yuklang"
+    },
+    "footer": {
+        "disclaimer": "Ushbu sayt tanlagan rasmlaringizdan ranglarni ajratib olish uchun \"colorthief\" modulidan foydalanadi. Rasmlar brauzeringizda mahalliy tarzda qayta ishlanadi; biz rasmlaringizni yuklamaymiz, saqlamaymiz yoki ulashmaymiz. Qayta ishlash anonim tarzda amalga oshiriladi va rasmlar saqlanmaydi."
     }
 }

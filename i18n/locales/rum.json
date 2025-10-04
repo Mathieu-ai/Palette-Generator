@@ -24,7 +24,10 @@
         "showing": "Afișarea poziției curente"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Copiază tot",
         "copy": "Copiat!",
         "copyDesc": "Valoarea {format} a fost copiată în clipboard",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Încă nicio imagine",
         "description": "Încarcă o imagine pentru a începe să generezi paleta ta de culori"
+    },
+    "footer": {
+        "disclaimer": "Acest site folosește modulul \"colorthief\" pentru a extrage culori din imaginile pe care le selectați. Imaginile sunt procesate local în browserul dumneavoastră; nu încărcăm, nu stocăm și nu partajăm imaginile dumneavoastră. Procesarea este anonimă și imaginile nu sunt salvate."
     }
 }

@@ -24,7 +24,10 @@
         "showing": "वर्तमान स्थिति दिखा रहा है"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "सभी कॉपी करें",
         "copy": "कॉपी किया गया!",
         "copyDesc": "{format} मान क्लिपबोर्ड पर कॉपी किया गया",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "अभी तक कोई छवि नहीं",
         "description": "अपनी रंग पैलेट बनाना शुरू करने के लिए एक छवि अपलोड करें"
+    },
+    "footer": {
+        "disclaimer": "Aquest lloc utilitza el mòdul \"colorthief\" per extreure colors de les imatges que seleccioneu. Les imatges es processen localment al vostre navegador; no carreguem, no emmagatzemem ni compartim les vostres imatges. El processament és anònim i les imatges no es guarden."
     }
 }

@@ -24,7 +24,10 @@
         "showing": "Menunjukkan kedudukan semasa"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Salin Semua",
         "copy": "Disalin!",
         "copyDesc": "Nilai {format} disalin ke papan keratan",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Tiada Imej",
         "description": "Muat naik imej untuk mula menjana palet warna anda"
+    },
+    "footer": {
+        "disclaimer": "Laman ini menggunakan modul \"colorthief\" untuk mengekstrak warna dari imej yang anda pilih. Imej diproses secara setempat dalam pelayar anda; kami tidak memuat naik, menyimpan atau berkongsi imej anda. Pemprosesan adalah tanpa nama dan imej tidak disimpan."
     }
 }

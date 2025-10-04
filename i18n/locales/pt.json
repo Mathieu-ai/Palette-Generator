@@ -43,5 +43,8 @@
     "empty": {
         "title": "Nenhuma Imagem",
         "description": "Envie uma imagem para começar a gerar sua paleta de cores"
+    },
+    "footer": {
+        "disclaimer": "Este site utiliza o módulo \"colorthief\" para extrair cores das imagens que você seleciona. As imagens são processadas localmente no seu navegador; nós não enviamos, armazenamos ou compartilhamos suas imagens. O processamento é anônimo e as imagens não são salvas."
     }
 }

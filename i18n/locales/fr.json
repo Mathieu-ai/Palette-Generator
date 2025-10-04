@@ -43,5 +43,8 @@
     "empty": {
         "title": "Pas Encore d'Image",
         "description": "Téléchargez une image pour commencer à générer votre palette de couleurs"
+    },
+    "footer":{
+        "disclaimer":"Ce site utilise le module \"colorthief\" pour extraire les couleurs des images que vous sélectionnez. Les images sont traitées localement dans votre navigateur ; nous ne téléversons, ne stockons ni ne partageons pas vos images. Le traitement est anonyme et les images ne sont pas sauvegardées."
     }
 }

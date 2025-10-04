@@ -44,5 +44,8 @@
     "empty": {
         "title": "Žádný obrázek",
         "description": "Nahrajte obrázek pro zahájení generování palety barev"
+    },
+    "footer": {
+        "disclaimer": "Tato stránka používá modul \"colorthief\" k extrakci barev z obrázků, které vyberete. Obrázky jsou zpracovávány lokálně ve vašem prohlížeči; obrázky neodesíláme, neukládáme ani nesdílíme. Zpracování je anonymní a obrázky se neukládají."
     }
 }

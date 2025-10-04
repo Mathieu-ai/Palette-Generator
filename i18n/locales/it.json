@@ -43,5 +43,8 @@
     "empty": {
         "title": "Nessuna Immagine",
         "description": "Carica un'immagine per iniziare a generare la tua palette di colori"
+    },
+    "footer": {
+        "disclaimer": "Questo sito utilizza il modulo \"colorthief\" per estrarre i colori dalle immagini che selezioni. Le immagini vengono elaborate localmente nel tuo browser; non carichiamo, memorizziamo o condividiamo le tue immagini. L'elaborazione è anonima e le immagini non vengono salvate."
     }
 }

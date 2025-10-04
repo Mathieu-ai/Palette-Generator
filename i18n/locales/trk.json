@@ -24,7 +24,10 @@
         "showing": "Mevcut konum gösteriliyor"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Hepsini Kopyala",
         "copy": "Kopyalandı!",
         "copyDesc": "{format} değeri pano'ya kopyalandı",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Henüz Görüntü Yok",
         "description": "Renk paletinizi oluşturmaya başlamak için bir görüntü yükleyin"
+    },
+    "footer": {
+        "disclaimer": "Bu site, seçtiğiniz görüntülerden renkleri çıkarmak için \"colorthief\" modülünü kullanır. Görüntüler tarayıcınızda yerel olarak işlenir; görüntülerinizi yüklemiyor, saklamıyor veya paylaşmıyoruz. İşlem anonimdir ve görüntüler kaydedilmez."
     }
 }

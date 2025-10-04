@@ -44,5 +44,8 @@
     "empty": {
         "title": "Pas encore d'image",
         "description": "Téléchargez une image pour commencer à générer votre palette de couleurs"
+    },
+    "footer": {
+        "disclaimer": "Aquest lloc utilitza el mòdul \"colorthief\" per extreure colors de les imatges que seleccioneu. Les imatges es processen localment al vostre navegador; no carreguem, no emmagatzemem ni compartim les vostres imatges. El processament és anònim i les imatges no es guarden."
     }
 }

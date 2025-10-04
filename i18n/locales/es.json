@@ -43,5 +43,8 @@
     "empty": {
         "title": "Aún No Hay Imagen",
         "description": "Sube una imagen para comenzar a generar tu paleta de colores"
+    },
+    "footer": {
+        "disclaimer": "Este sitio utiliza el módulo \"colorthief\" para extraer colores de las imágenes que selecciones. Las imágenes se procesan localmente en tu navegador; no subimos, almacenamos ni compartimos tus imágenes. El procesamiento es anónimo y las imágenes no se guardan."
     }
 }

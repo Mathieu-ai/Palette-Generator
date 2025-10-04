@@ -44,5 +44,8 @@
     "empty": {
         "title": "Nog Geen Afbeelding",
         "description": "Upload een afbeelding om te beginnen met het genereren van je kleurenpalet"
+    },
+    "footer": {
+        "disclaimer": "Deze site gebruikt de module \"colorthief\" om kleuren te halen uit de afbeeldingen die u selecteert. Afbeeldingen worden lokaal in uw browser verwerkt; we uploaden, bewaren of delen uw afbeeldingen niet. De verwerking is anoniem en afbeeldingen worden niet opgeslagen."
     }
 }

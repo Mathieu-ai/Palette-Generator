@@ -2,57 +2,31 @@
     <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
         <NuxtRouteAnnouncer />
         <ClientOnly>
-            <header
-                class="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
-            >
-                <div class="container mx-auto px-4 py-4 sm:py-6">
-                    <div
-                        class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
-                    >
-                        <div
-                            class="flex items-center gap-3 justify-center sm:justify-start"
-                        >
-                            <UIcon
-                                name="i-heroicons-swatch"
-                                class="w-8 h-8 text-primary"
-                            />
-                            <h1
-                                class="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white"
-                            >
-                                {{ $t("app.title") }}
-                            </h1>
-                        </div>
+            <UHeader toggle-side="left" class="sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+                <template #title>
+                    <NuxtLink to="/" class="flex items-center gap-2">
+                        <p>{{ uiStore.packageInfo.name }}</p>
+                        <img src="/favicon.ico" alt="logo" class="h-6 w-auto" />
+                    </NuxtLink>
+                </template>
 
-                        <div
-                            class="flex items-center gap-2 justify-center sm:justify-end mt-2 sm:mt-0"
+                <template #right>
+                    <div class="flex items-center gap-2">
+                        <USelect
+                            v-model="uiStore.currentLocale"
+                            :items="uiStore.languageItems"
+                            value-key="value"
+                            class="w-36 sm:w-40"
                         >
-                            <USelect
-                                v-model="uiStore.currentLocale"
-                                :items="uiStore.languageItems"
-                                value-key="value"
-                                class="w-36 sm:w-40"
-                            >
-                                <template #leading>
-                                    <span class="text-xl">{{
-                                        uiStore.currentLanguageFlag
-                                    }}</span>
-                                </template>
-                            </USelect>
-                            <UButton
-                                color="neutral"
-                                variant="ghost"
-                                icon="i-heroicons-moon"
-                                @click="uiStore.toggleColorMode"
-                            />
-                        </div>
+                            <template #leading>
+                                <span class="text-xl">{{ uiStore.currentLanguageFlag }}</span>
+                            </template>
+                        </USelect>
+
+                        <UColorModeButton />
                     </div>
-                    <p
-                        class="mt-2 text-gray-600 dark:text-gray-400 text-center sm:text-left"
-                    >
-                        {{ $t("app.description") }}
-                    </p>
-                </div>
-            </header>
+                </template>
+            </UHeader>
 
             <main class="container mx-auto px-4 py-8">
             <UCard v-if="!imageStore.imagePreview" class="mb-8">
@@ -279,6 +253,13 @@
                 </div>
             </div>
         </main>
+
+            <UFooter class="border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 mt-8">
+                <div class="container mx-auto px-4 py-4 text-center text-sm text-gray-600 dark:text-gray-400">
+                    <p>{{ $t('footer.disclaimer') }}</p>
+                </div>
+            </UFooter>
+
         </ClientOnly>
     </div>
 </template>

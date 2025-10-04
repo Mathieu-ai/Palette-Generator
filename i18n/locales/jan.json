@@ -24,7 +24,10 @@
         "showing": "Nuduhaké posisi saiki"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Salin Kabeh",
         "copy": "Wis disalin!",
         "copyDesc": "Nilai {format} disalin menyang papan klip",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Durung ana gambar",
         "description": "Unggah gambar kanggo miwiti nggawe palet werna"
+    },
+    "footer": {
+        "disclaimer": "Este sitio utiliza el módulo \"colorthief\" para extraer colores de las imágenes que selecciones. Las imágenes se procesan localmente en tu navegador; no subimos, almacenamos ni compartimos tus imágenes. El procesamiento es anónimo y las imágenes no se guardan."
     }
 }

@@ -24,7 +24,10 @@
         "showing": "Näytetään nykyinen sijainti"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Kopioi kaikki",
         "copy": "Kopioitu!",
         "copyDesc": "Arvo {format} kopioitu leikepöydälle",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Ei kuvaa vielä",
         "description": "Lataa kuva aloittaaksesi väripaletin luomisen"
+    },
+    "footer": {
+        "disclaimer": "Tämä sivusto käyttää \"colorthief\"-moduulia poimiakseen värejä valitsemistasi kuvista. Kuvat käsitellään paikallisesti selaimessasi; emme lataa, tallenna tai jaa kuviasi. Käsittely on anonyymiä eikä kuvia tallenneta."
     }
 }

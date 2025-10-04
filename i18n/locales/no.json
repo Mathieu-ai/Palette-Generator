@@ -24,7 +24,10 @@
         "showing": "Viser gjeldende posisjon"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Kopier alt",
         "copy": "Kopiert!",
         "copyDesc": "{format} verdi kopiert til utklippstavlen",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Ingen bilde ennå",
         "description": "Last opp et bilde for å begynne å generere paletten din"
+    },
+    "footer": {
+        "disclaimer": "Dette nettstedet bruker modulen \"colorthief\" for å hente farger fra bildene du velger. Bilder behandles lokalt i nettleseren din; vi laster ikke opp, lagrer eller deler bildene dine. Behandlingen er anonym, og bildene blir ikke lagret."
     }
 }

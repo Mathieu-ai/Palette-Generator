@@ -44,5 +44,8 @@
     "empty": {
         "title": "Hələ şəkil yoxdur",
         "description": "Rəng palitranızı yaratmağa başlamaq üçün şəkil yükləyin"
+    },
+    "footer": {
+        "disclaimer": "Bu sayt seçdiyiniz şəkillərdən rəngləri çıxarmaq üçün \"colorthief\" modulundan istifadə edir. Şəkillər brauzerinizdə yerli olaraq işlənir; biz şəkillərinizi yükləmir, saxlamır və ya paylaşmırıq. Emal anonimdir və şəkillər saxlanılmır."
     }
 }

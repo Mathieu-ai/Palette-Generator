@@ -24,7 +24,10 @@
         "showing": "Visar aktuell position"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Kopiera allt",
         "copy": "Kopierat!",
         "copyDesc": "{format}-värdet kopierat till urklipp",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Ingen bild ännu",
         "description": "Ladda upp en bild för att börja skapa din färgpalett"
+    },
+    "footer": {
+        "disclaimer": "Denna webbplats använder modulen \"colorthief\" för att extrahera färger från bilder du väljer. Bilder behandlas lokalt i din webbläsare; vi laddar inte upp, lagrar eller delar dina bilder. Behandlingen är anonym och bilder sparas inte."
     }
 }

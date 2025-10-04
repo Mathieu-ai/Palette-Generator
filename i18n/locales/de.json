@@ -43,5 +43,8 @@
     "empty": {
         "title": "Noch Kein Bild",
         "description": "Laden Sie ein Bild hoch, um mit der Erstellung Ihrer Farbpalette zu beginnen"
+    },
+    "footer": {
+        "disclaimer": "Diese Website verwendet das Modul \"colorthief\" um Farben aus den von Ihnen ausgewählten Bildern zu extrahieren. Bilder werden lokal in Ihrem Browser verarbeitet; wir laden Ihre Bilder nicht hoch, speichern sie nicht und teilen sie nicht. Die Verarbeitung erfolgt anonym und Bilder werden nicht gespeichert."
     }
 }

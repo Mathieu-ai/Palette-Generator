@@ -24,7 +24,10 @@
         "showing": "Ana nuna matsayi na yanzu"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Kwafi Duka",
         "copy": "An kwafi!",
         "copyDesc": "An kwafi {format} zuwa allo mai makala",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Babu Hoto Yanzu",
         "description": "Loda hoto don fara haɓaka palet ɗin launuka"
+    },
+    "footer": {
+        "disclaimer": "Wannan shafin yana amfani da karamin shirin \"colorthief\" don cire launuka daga hotunan da kuka zaba. Ana sarrafa hotunan a cikin burauzarku na gida; ba ma ɗora, adanawa ko raba hotunanku. Aikin sarrafawa ba a bayyana shi ba kuma hotuna ba a adana su."
     }
 }

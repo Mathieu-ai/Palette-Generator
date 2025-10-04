@@ -24,7 +24,10 @@
         "showing": "Inaonyesha nafasi ya sasa"
     },
     "actions": {
-        "export": { "json": "JSON", "css": "CSS" },
+        "export": {
+            "json": "JSON",
+            "css": "CSS"
+        },
         "copyAll": "Nakili Yote",
         "copy": "Imenakiliwa!",
         "copyDesc": "Thamani ya {format} imenaswa kwenye clipboard",
@@ -41,5 +44,8 @@
     "empty": {
         "title": "Hakuna picha bado",
         "description": "Pakia picha ili kuanza kuunda paleti yako ya rangi"
+    },
+    "footer": {
+        "disclaimer": "Бул сайт сиз тандаган сүрөттөрдөн түстөрдү чыгарып алуу үчүн \"colorthief\" модулун колдонуп жатат. Сүрөттөр браузериңизде жергиликтүү түрдө иштетилет; биз сүрөттөрүңүздү жүктөбөйбүз, сактабайбыз же бөлүшпөйбүз. Иштетүү анонимдүү жана сүрөттөр сакталбайт."
     }
 }
